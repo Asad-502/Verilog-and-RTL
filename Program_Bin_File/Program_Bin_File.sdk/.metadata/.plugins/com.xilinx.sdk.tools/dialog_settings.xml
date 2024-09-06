@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="My_Counter_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="qspi_single" key="My_Counter_wrapper_hw_platform_0-flashType"/>
+	<item value="false" key="My_Counter_wrapper_hw_platform_0-blankCheck"/>
+	<item value="E:\FYP\Zybo\Program_Bin_File\Program_Bin_File.sdk\create_bsfl\Debug\BOOT.bin" key="My_Counter_wrapper_hw_platform_0-imgFile"/>
+	<item value="Auto Detect" key="My_Counter_wrapper_hw_platform_0-device"/>
+	<item value="false" key="My_Counter_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="Local" key="My_Counter_wrapper_hw_platform_0-target"/>
+	<item value="E:\FYP\Zybo\Program_Bin_File\Program_Bin_File.sdk\create_bsfl\Debug\create_bsfl.elf" key="My_Counter_wrapper_hw_platform_0-fsblFile"/>
+	<item value="" key="My_Counter_wrapper_hw_platform_0-offSet"/>
+</section>

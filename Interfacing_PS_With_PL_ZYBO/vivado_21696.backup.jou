@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan  1 22:44:40 2024
+# Process ID: 21696
+# Current directory: E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22776 E:\FYP\Zybo\Interfacing_PS_With_PL_ZYBO\Interfacing_PS_With_PL_ZYBO.xpr
+# Log file: E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO/vivado.log
+# Journal file: E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO/Interfacing_PS_With_PL_ZYBO.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO/Interfacing_PS_With_PL_ZYBO.sdk -hwspec E:/FYP/Zybo/Interfacing_PS_With_PL_ZYBO/Interfacing_PS_With_PL_ZYBO.sdk/NAND_Gate_wrapper.hdf

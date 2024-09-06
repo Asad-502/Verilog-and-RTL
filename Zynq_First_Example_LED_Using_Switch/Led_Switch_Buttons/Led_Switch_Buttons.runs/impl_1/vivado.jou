@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  9 18:18:46 2023
+# Process ID: 5964
+# Current directory: E:/FYP/Zybo/Zynq_First_Example_LED_Using_Switch/Led_Switch_Buttons/Led_Switch_Buttons.runs/impl_1
+# Command line: vivado.exe -log Led_Switch_Buttons_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Led_Switch_Buttons_wrapper.tcl -notrace
+# Log file: E:/FYP/Zybo/Zynq_First_Example_LED_Using_Switch/Led_Switch_Buttons/Led_Switch_Buttons.runs/impl_1/Led_Switch_Buttons_wrapper.vdi
+# Journal file: E:/FYP/Zybo/Zynq_First_Example_LED_Using_Switch/Led_Switch_Buttons/Led_Switch_Buttons.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Led_Switch_Buttons_wrapper.tcl -notrace

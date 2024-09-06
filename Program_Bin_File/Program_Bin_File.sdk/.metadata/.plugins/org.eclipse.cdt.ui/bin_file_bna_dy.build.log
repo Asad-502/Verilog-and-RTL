@@ -1,0 +1,8 @@
+21:49:13 **** Auto Build of configuration Debug for project bin_file_bna_dy ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+
+21:49:13 Build Finished (took 449ms)
+

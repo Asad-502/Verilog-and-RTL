@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]E:\FYP\Zybo\Program_Bin_File\Program_Bin_File.sdk\create_bsfl\Debug\create_bsfl.elf
+	E:\FYP\Zybo\Program_Bin_File\Program_Bin_File.sdk\My_Counter_wrapper_hw_platform_0\My_Counter_wrapper.bit
+}
