@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Aug 20 10:52:44 2024
+# Process ID: 6224
+# Current directory: E:/FYP/FPGA_XILINX/Convert_Code_To_IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9468 E:\FYP\FPGA_XILINX\Convert_Code_To_IP\Convert_Code_To_IP.xpr
+# Log file: E:/FYP/FPGA_XILINX/Convert_Code_To_IP/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX/Convert_Code_To_IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FYP/FPGA_XILINX/Convert_Code_To_IP/Convert_Code_To_IP.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+ipx::open_ipxact_file {E:\FYP\FPGA_XILINX\Convert_Code_To_IP\Convert_Code_To_IP.srcs\component.xml}
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:Full_Add_My_IP:1.0 Full_Add_My_IP_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:c_counter_binary:12.0 c_counter_binary_0
+endgroup
+set_property location {0.5 -73 -3} [get_bd_cells c_counter_binary_0]
+startgroup
+make_bd_pins_external  [get_bd_cells c_counter_binary_0]
+make_bd_intf_pins_external  [get_bd_cells c_counter_binary_0]
+endgroup
+close_bd_design [get_bd_designs design_1]
+close_project

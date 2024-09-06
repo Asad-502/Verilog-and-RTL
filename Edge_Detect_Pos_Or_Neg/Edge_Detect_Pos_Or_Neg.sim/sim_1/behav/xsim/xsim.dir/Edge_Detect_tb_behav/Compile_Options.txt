@@ -1,0 +1,1 @@
+-wto "92e08b9cbc16401fa4da61577148db63" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Edge_Detect_tb_behav" "xil_defaultlib.Edge_Detect_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

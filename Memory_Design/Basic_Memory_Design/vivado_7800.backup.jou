@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Aug 14 17:39:28 2023
+# Process ID: 7800
+# Current directory: E:/FYP/FPGA_XILINX 2/Memory_Design/Basic_Memory_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24188 E:\FYP\FPGA_XILINX 2\Memory_Design\Basic_Memory_Design\Basic_Memory_Design.xpr
+# Log file: E:/FYP/FPGA_XILINX 2/Memory_Design/Basic_Memory_Design/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX 2/Memory_Design/Basic_Memory_Design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FYP/FPGA_XILINX 2/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Basic_Memory_Design_Tb.tcl
+close_sim
+launch_simulation
+source Basic_Memory_Design_Tb.tcl
+close_sim
+close_project
+open_project {E:/FYP/FPGA_XILINX 2/NAND_Switch_Level/NAND_Switch_Level.xpr}
+update_compile_order -fileset sources_1

@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.ip_user_files/bd/Multi_Bit_Multiplier/ip/Multi_Bit_Multiplier_mult_gen_0_0/sim/Multi_Bit_Multiplier_mult_gen_0_0.vhd,1692729179,vhdl,,,,multi_bit_multiplier_mult_gen_0_0,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.ip_user_files/bd/Multi_Bit_Multiplier/sim/Multi_Bit_Multiplier.v,1692728404,verilog,,E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.srcs/sources_1/bd/Multi_Bit_Multiplier/hdl/Multi_Bit_Multiplier_wrapper.v,,Multi_Bit_Multiplier,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.srcs/sim_1/new/Multi_Bit_Multiplier_Tb.v,1692729284,verilog,,,,Multi_Bit_Multiplier_Tb,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.srcs/sources_1/bd/Multi_Bit_Multiplier/hdl/Multi_Bit_Multiplier_wrapper.v,1692729179,verilog,,E:/FYP/FPGA_XILINX 2/Multiplier_IP/Multiplier_IP.srcs/sim_1/new/Multi_Bit_Multiplier_Tb.v,,Multi_Bit_Multiplier_wrapper,,,,,,,,

@@ -1,0 +1,2 @@
+verilog work "../clock_divisor/clock_divisor.v"
+verilog work "counter_internalclock.v"

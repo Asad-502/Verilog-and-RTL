@@ -1,0 +1,1 @@
+-wto "af94f9bb2ede469294d155b75d63ff40" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Mealy_Example_2_Way_process_Tb_behav" "xil_defaultlib.Mealy_Example_2_Way_process_Tb" "xil_defaultlib.glbl" -log "elaborate.log" 

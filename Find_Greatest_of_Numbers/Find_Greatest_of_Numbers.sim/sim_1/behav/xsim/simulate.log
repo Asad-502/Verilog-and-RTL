@@ -1,0 +1,4 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Greater Number Is, res= 3
+$finish called at time : 20 ns : File "E:/FYP/FPGA_XILINX 2/Find_Greatest_of_Numbers/Find_Greatest_of_Numbers.srcs/sim_1/new/Greatest_By_Tertiary_Operator_Tb.v" Line 20

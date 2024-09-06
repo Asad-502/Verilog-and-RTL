@@ -1,0 +1,50 @@
+module counter(clk,y,control,rst);
+input rst,clk;
+output [3:0]control;
+output [6:0]y;
+reg [3:0]count;
+reg y;
+wire clock_out
+clock_divisor u1(clk,clock_out)
+assign control=4'b1110;
+always@(posedge clock_out or posedge rst)
+if(rst) count = 4'b0000;
+else
+if(count<9) count=count+1;
+else count=4'b0000;
+always@(count)
+case(count)
+4'b0000 : y = 7'b1000000;
+4'b0001 : y = 7'b1111001  ;
+4'b0010 : y = 7'b0100100 ; 
+4'b0011 : y = 7'b0110000 ;
+4'b0100 : y = 7'b0011001 ;
+4'b0101 : y = 7'b0010010 ;  
+4'b0110 : y = 7'b0000010 ;
+4'b0111 : y = 7'b1111000 ;
+4'b1000 : y = 7'b0000000;
+4'b1001 : y = 7'b0011000 ;
+default : y = 7'b0000000 ;
+endcase
+endmodule
+
+
+
+
+module clock_divisor(clock_in,clock_out);
+input clock_in;
+output clock_out;
+reg[27:0]counter=28'd0;
+parameter divisor=50000000;
+
+always@(posedge clock_in)
+begin
+counter<=counter+28'd1;
+if(counter>=(divisor-1))
+	counter<=28'd0;
+end
+assign clock_out=(counter<divisor/2)?1'b0:1'b1;
+endmodule
+
+
+

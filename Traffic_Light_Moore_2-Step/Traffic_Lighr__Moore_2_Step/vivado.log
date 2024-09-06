@@ -1,0 +1,815 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug 19 23:51:57 2023
+# Process ID: 21188
+# Current directory: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24820 E:\FYP\FPGA_XILINX 2\Traffic_Light_Moore_2-Step\Traffic_Lighr__Moore_2_Step\Traffic_Lighr__Moore_2_Step.xpr
+# Log file: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step/Traffic_Lighr__Moore_2_Step.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 877.730 ; gain = 133.312
+update_compile_order -fileset sources_1
+close_project
+create_project Mealy_Basic_Example {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example} -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 916.516 ; gain = 21.598
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new/Mealy_Basic_Example.v} w ]
+add_files {{E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new/Mealy_Basic_Example.v}}
+update_compile_order -fileset sources_1
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new/Mealy_Basic_Example.v} w ]
+add_files -fileset sim_1 {{E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new/Mealy_Basic_Example.v}}
+update_compile_order -fileset sim_1
+close_project
+create_project Mealy_Example_3_Way_Process {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process} -part xc7a35tcpg236-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 944.129 ; gain = 0.000
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v} w ]
+add_files {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v}}
+update_compile_order -fileset sources_1
+set_property simulator_language Verilog [current_project]
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_behav xil_defaultlib.Mealy_Example xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/FYP/FPGA_XILINX -notrace
+couldn't read file "E:/FYP/FPGA_XILINX": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 20 00:21:48 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_behav -key {Behavioral:sim_1:Functional:Mealy_Example} -tclbatch {Mealy_Example.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1074.305 ; gain = 14.430
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v} w ]
+add_files -fileset sim_1 {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/FYP/FPGA_XILINX -notrace
+couldn't read file "E:/FYP/FPGA_XILINX": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Aug 20 01:10:06 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1079.395 ; gain = 4.637
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1086.051 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1086.051 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.156 ; gain = 1.105
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property is_enabled false [get_files  {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_behav xil_defaultlib.Mealy_Example xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_behav -key {Behavioral:sim_1:Functional:Mealy_Example} -tclbatch {Mealy_Example.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1092.293 ; gain = 0.000
+add_force {/Mealy_Example/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Mealy_Example/rst} -radix hex {0 0ns}
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_behav xil_defaultlib.Mealy_Example xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1092.293 ; gain = 0.000
+add_force {/Mealy_Example/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Mealy_Example/rst} -radix hex {0 0ns}
+add_force {/Mealy_Example/din} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps -cancel_after 10
+run 10 us
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {1 0ns} -cancel_after 100
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {0 100ns}
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {1 10ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property is_enabled true [get_files  {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1094.438 ; gain = 0.406
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1094.969 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1094.969 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 31 ns : File "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1107.113 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+ERROR: [VRFC 10-46] s1 is already declared [E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v:49]
+ERROR: [VRFC 10-2787] module Mealy_Example ignored due to previous errors [E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v:7]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 14 ns : File "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Mealy_Example_3_Way_process_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Mealy_Example_3_Way_process_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mealy_Example_3_Way_process_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 89aa0835e44c44c0bf575c68ac0ee629 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_Example_3_Way_process_Tb_behav xil_defaultlib.Mealy_Example_3_Way_process_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Mealy_Example
+Compiling module xil_defaultlib.Mealy_Example_3_Way_process_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Mealy_Example_3_Way_process_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Mealy_Example_3_Way_process_Tb_behav -key {Behavioral:sim_1:Functional:Mealy_Example_3_Way_process_Tb} -tclbatch {Mealy_Example_3_Way_process_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Mealy_Example_3_Way_process_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 28 ns : File "E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Mealy_Example_3_Way_process_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1108.754 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Aug 20 18:29:33 2023...

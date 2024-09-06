@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+D:\FYP\Xilinx\ISE\bin\nt\unwrapped\ngdbuild.exe -ise E:/FPGA_XILINX 2/second.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 second.ngc second.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+second_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

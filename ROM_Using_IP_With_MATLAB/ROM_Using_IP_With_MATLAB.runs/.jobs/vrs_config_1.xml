@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0_synth_1" LaunchDir="E:/FYP/FPGA_XILINX 2/ROM_Using_IP_With_MATLAB/ROM_Using_IP_With_MATLAB.runs/ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 31 12:33:29 2023
+# Process ID: 25124
+# Current directory: E:/FYP/FPGA_XILINX 2/Generate_Sine_Wave_DDS_IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13504 E:\FYP\FPGA_XILINX 2\Generate_Sine_Wave_DDS_IP\Generate_Sine_Wave_DDS_IP.xpr
+# Log file: E:/FYP/FPGA_XILINX 2/Generate_Sine_Wave_DDS_IP/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX 2/Generate_Sine_Wave_DDS_IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FYP/FPGA_XILINX 2/Generate_Sine_Wave_DDS_IP/Generate_Sine_Wave_DDS_IP.xpr}
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir {e:/fyp/fpga_xilinx 2/generate_sine_wave_dds_ip/generate_sine_wave_dds_ip.srcs/sources_1/bd/sine_wave} -vendor xilinx.com -library user -taxonomy /UserIP
+ipx::unload_core {e:/fyp/fpga_xilinx 2/generate_sine_wave_dds_ip/generate_sine_wave_dds_ip.srcs/sources_1/bd/sine_wave/component.xml}
+export_ip_user_files -of_objects  [get_files {{e:/fyp/fpga_xilinx 2/generate_sine_wave_dds_ip/generate_sine_wave_dds_ip.srcs/sources_1/bd/sine_wave/component.xml}}] -no_script -reset -force -quiet
+remove_files  {{e:/fyp/fpga_xilinx 2/generate_sine_wave_dds_ip/generate_sine_wave_dds_ip.srcs/sources_1/bd/sine_wave/component.xml}}
+file delete -force {e:/fyp/fpga_xilinx 2/generate_sine_wave_dds_ip/generate_sine_wave_dds_ip.srcs/sources_1/bd/sine_wave/component.xml}

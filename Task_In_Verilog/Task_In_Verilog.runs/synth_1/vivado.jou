@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 10 02:23:27 2023
+# Process ID: 4400
+# Current directory: E:/FYP/FPGA_XILINX 2/Task_In_Verilog/Task_In_Verilog.runs/synth_1
+# Command line: vivado.exe -log single_port_ram.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source single_port_ram.tcl
+# Log file: E:/FYP/FPGA_XILINX 2/Task_In_Verilog/Task_In_Verilog.runs/synth_1/single_port_ram.vds
+# Journal file: E:/FYP/FPGA_XILINX 2/Task_In_Verilog/Task_In_Verilog.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source single_port_ram.tcl -notrace

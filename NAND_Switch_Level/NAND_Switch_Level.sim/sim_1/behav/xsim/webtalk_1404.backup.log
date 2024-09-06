@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 10 12:50:24 2023
+# Process ID: 1404
+# Current directory: E:/FYP/FPGA_XILINX 2/NAND_Switch_Level/NAND_Switch_Level.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/FYP/FPGA_XILINX 2/NAND_Switch_Level/NAND_Switch_Level.sim/sim_1/behav/xsim/xsim.dir/NAND_Switch_Level_Tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/FYP/FPGA_XILINX 2/NAND_Switch_Level/NAND_Switch_Level.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/FYP/FPGA_XILINX 2/NAND_Switch_Level/NAND_Switch_Level.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/FYP/FPGA_XILINX -notrace
+couldn't read file "E:/FYP/FPGA_XILINX": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Thu Aug 10 12:50:24 2023...

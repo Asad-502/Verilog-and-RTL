@@ -1,0 +1,12 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+BCD_T0_ SEVEN_SEGMENT 
+time=0   a=1  b=1    c=1 d=1 e=1 f=1 g=0   
+time=10   a=0  b=1    c=1 d=0 e=0 f=0 g=0   
+time=20   a=1  b=1    c=0 d=1 e=1 f=0 g=1   
+time=30   a=1  b=1    c=1 d=1 e=0 f=0 g=1   
+time=40   a=0  b=1    c=1 d=0 e=0 f=1 g=1   
+time=50   a=1  b=0    c=1 d=1 e=0 f=1 g=1   
+time=60   a=1  b=0    c=1 d=1 e=1 f=1 g=1   
+time=70   a=1  b=1    c=1 d=0 e=0 f=0 g=0   
+time=80   a=1  b=1    c=1 d=1 e=1 f=1 g=1   

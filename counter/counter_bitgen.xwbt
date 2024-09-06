@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Local Disk E\FYP\FPGA_XILINX 2\counter\counter.ncd
+OUTFILE=D:\Local Disk E\FYP\FPGA_XILINX 2\counter\counter.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=D:\Local Disk E\FYP\FPGA_XILINX 2\counter
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Generate_Sine_Wave_DDS_IP.ip_user_files/bd/Sine_Wave/sim/Sine_Wave.v" \
+"../../../../Generate_Sine_Wave_DDS_IP.srcs/sources_1/bd/Sine_Wave/hdl/Sine_Wave_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

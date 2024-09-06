@@ -1,0 +1,4 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+ERROR: Could not open vcd file dump.vcd. A VCD file by name dump.vcd has already been opened. Only one VCD file is allowed to be open.
+$finish called at time : 76 ns : File "E:/FYP/FPGA_XILINX/Edge_Detect_Pos_Or_Neg/Edge_Detect_Pos_Or_Neg.srcs/sim_1/new/Edge_Detect_tb.v" Line 22

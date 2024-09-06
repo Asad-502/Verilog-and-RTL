@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/BCD_7_Seg/BCD_7_Seg.srcs/sources_1/new/BCD_7_Seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_7_Seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/BCD_7_Seg/BCD_7_Seg.srcs/sim_1/new/BCD_7_Seg_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BCD_7_Seg_Tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/BCD_7_Seg/BCD_7_Seg.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

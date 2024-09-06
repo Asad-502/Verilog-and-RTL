@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1680193818">
+  <File Type="ROUTE-BUS-SKEW" Name="up_counter_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="up_counter.dcp"/>
+  <File Type="OPT-HWDEF" Name="up_counter.hwdef"/>
+  <File Type="ROUTE-PWR" Name="up_counter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="up_counter.tcl"/>
+  <File Type="BITSTR-BMM" Name="up_counter_bd.bmm"/>
+  <File Type="OPT-DCP" Name="up_counter_opt.dcp"/>
+  <File Type="REPORTS-TCL" Name="up_counter_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="up_counter_power_summary_routed.pb"/>
+  <File Type="OPT-DRC" Name="up_counter_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="up_counter_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="up_counter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="up_counter_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="up_counter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="up_counter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="up_counter_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="up_counter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="up_counter_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="up_counter.bin"/>
+  <File Type="PHYSOPT-DCP" Name="up_counter_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="up_counter.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="up_counter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="up_counter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="up_counter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="up_counter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="up_counter_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="up_counter_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="up_counter.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="up_counter_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="up_counter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="up_counter_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="up_counter_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="up_counter.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="up_counter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="up_counter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="up_counter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="up_counter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="up_counter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="up_counter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="up_counter_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="up_counter.vdi"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="up_counter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="up_counter_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="up_counter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="up_counter_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="up_counter.bit"/>
+  <File Type="BITSTR-RBT" Name="up_counter.rbt"/>
+  <File Type="BITSTR-NKY" Name="up_counter.nky"/>
+  <File Type="BG-BGN" Name="up_counter.bgn"/>
+  <File Type="BG-DRC" Name="up_counter.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asad Ur Rehman/Desktop/project_2/project_2.srcs/sources_1/new/counter.v"/>
+        <Attr Name="ImportTime" Val="1680181676"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="up_counter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="c_addsub_0"/>
+</GenRun>

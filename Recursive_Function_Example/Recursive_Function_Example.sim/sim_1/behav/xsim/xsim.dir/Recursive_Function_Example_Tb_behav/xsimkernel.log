@@ -1,0 +1,4 @@
+Running: xsim.dir/Recursive_Function_Example_Tb_behav/xsimk.exe -simmode gui -wdb Recursive_Function_Example_Tb_behav.wdb -simrunnum 0 -socket 60854
+Design successfully loaded
+Design Loading Memory Usage: 6684 KB (Peak: 6684 KB)
+Design Loading CPU Usage: 31 ms

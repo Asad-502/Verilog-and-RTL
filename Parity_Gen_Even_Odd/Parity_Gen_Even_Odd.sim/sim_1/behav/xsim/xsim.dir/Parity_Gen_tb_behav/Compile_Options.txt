@@ -1,0 +1,1 @@
+-wto "6809c93777d8460e9d90b82e240b46d0" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Parity_Gen_tb_behav" "xil_defaultlib.Parity_Gen_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

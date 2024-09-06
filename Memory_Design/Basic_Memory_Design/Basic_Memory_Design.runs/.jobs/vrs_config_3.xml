@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_Basic_Memory_Design_0_0_synth_1" LaunchDir="E:/FYP/FPGA_XILINX 2/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.runs/design_1_Basic_Memory_Design_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

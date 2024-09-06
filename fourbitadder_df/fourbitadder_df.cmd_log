@@ -1,0 +1,13 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fourbitadder_df.ngc" fourbitadder_df.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fourbitadder_df_map.ncd fourbitadder_df.ngd fourbitadder_df.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -w -intstyle ise -ol std -t 1 fourbitadder_df_map.ncd fourbitadder_df.ncd fourbitadder_df.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -e 3 -s 4 -xml fourbitadder_df fourbitadder_df.ncd -o fourbitadder_df.twr fourbitadder_df.pcf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fourbitadder_df.ngc" fourbitadder_df.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fourbitadder_df_map.ncd fourbitadder_df.ngd fourbitadder_df.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -w -intstyle ise -ol std -t 1 fourbitadder_df_map.ncd fourbitadder_df.ncd fourbitadder_df.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -e 3 -s 4 -xml fourbitadder_df fourbitadder_df.ncd -o fourbitadder_df.twr fourbitadder_df.pcf -ucf E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise" -intstyle ise -f fourbitadder_df.ut fourbitadder_df.ncd

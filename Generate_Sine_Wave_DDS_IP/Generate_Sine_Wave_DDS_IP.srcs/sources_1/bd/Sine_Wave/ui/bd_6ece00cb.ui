@@ -1,0 +1,17 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port aclken_0 -pg 1 -y -20 -defaultsOSRD
+preplace port m_axis_data_tvalid_0 -pg 1 -y 0 -defaultsOSRD
+preplace port aclk_0 -pg 1 -y -40 -defaultsOSRD
+preplace portBus m_axis_data_tdata_0 -pg 1 -y -20 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace netloc dds_compiler_0_m_axis_data_tdata 1 1 1 N
+preplace netloc aclken_0_1 1 0 1 -20
+preplace netloc dds_compiler_0_m_axis_data_tvalid 1 1 1 N
+preplace netloc aclk_0_1 1 0 1 -20
+levelinfo -pg 1 -40 120 280 -top -100 -bot 140
+",
+}
+

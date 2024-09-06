@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Full Adder Using VIVADO Build In IP/Full Adder Using VIVADO BUILD IN IP.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module up_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Full Adder Using VIVADO Build In IP/Full Adder Using VIVADO BUILD IN IP.srcs/sim_1/new/counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module upcounter_testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Full Adder Using VIVADO Build In IP/Full Adder Using VIVADO BUILD IN IP.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/FYP/FPGA_XILINX 2/Full Adder Using VIVADO Build In IP/Full Adder Using VIVADO BUILD IN IP.srcs/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity c_addsub_0

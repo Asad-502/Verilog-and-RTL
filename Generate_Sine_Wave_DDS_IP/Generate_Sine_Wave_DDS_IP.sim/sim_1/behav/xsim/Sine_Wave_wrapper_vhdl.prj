@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Generate_Sine_Wave_DDS_IP.ip_user_files/bd/Sine_Wave/ip/Sine_Wave_dds_compiler_0_0/sim/Sine_Wave_dds_compiler_0_0.vhd" \
+
+# Do not sort compile order
+nosort

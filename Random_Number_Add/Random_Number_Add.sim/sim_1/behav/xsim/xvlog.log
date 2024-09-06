@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Random_Number_Add/Random_Number_Add.srcs/sources_1/new/Ver_Random_Func.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ver_Random_Func
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Random_Number_Add/Random_Number_Add.srcs/sim_1/new/Ver_Random_Func_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ver_Random_Func_Tb

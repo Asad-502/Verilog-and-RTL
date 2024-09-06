@@ -1,0 +1,16 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.xst" -ofn "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.xst" -ofn "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "clock_divisor.ngc" clock_divisor.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o clock_divisor_map.ncd clock_divisor.ngd clock_divisor.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -w -intstyle ise -ol std -t 1 clock_divisor_map.ncd clock_divisor.ncd clock_divisor.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -e 3 -s 4 -xml clock_divisor clock_divisor.ncd -o clock_divisor.twr clock_divisor.pcf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "clock_divisor.ngc" clock_divisor.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o clock_divisor_map.ncd clock_divisor.ngd clock_divisor.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -w -intstyle ise -ol std -t 1 clock_divisor_map.ncd clock_divisor.ncd clock_divisor.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -e 3 -s 4 -xml clock_divisor clock_divisor.ncd -o clock_divisor.twr clock_divisor.pcf -ucf clock_divisor.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -f clock_divisor.ut clock_divisor.ncd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "clock_divisor.ngc" clock_divisor.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o clock_divisor_map.ncd clock_divisor.ngd clock_divisor.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -w -intstyle ise -ol std -t 1 clock_divisor_map.ncd clock_divisor.ncd clock_divisor.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -e 3 -s 4 -xml clock_divisor clock_divisor.ncd -o clock_divisor.twr clock_divisor.pcf -ucf clock_divisor.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise" -intstyle ise -f clock_divisor.ut clock_divisor.ncd

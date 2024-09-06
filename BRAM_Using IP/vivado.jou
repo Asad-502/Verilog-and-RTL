@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Dec 17 01:26:53 2023
+# Process ID: 21536
+# Current directory: E:/FYP/FPGA_XILINX 2/BRAM_Using IP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23528 E:\FYP\FPGA_XILINX 2\BRAM_Using IP\BRAM_Using IP.xpr
+# Log file: E:/FYP/FPGA_XILINX 2/BRAM_Using IP/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX 2/BRAM_Using IP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FYP/FPGA_XILINX 2/BRAM_Using IP/BRAM_Using IP.xpr}
+update_compile_order -fileset sources_1

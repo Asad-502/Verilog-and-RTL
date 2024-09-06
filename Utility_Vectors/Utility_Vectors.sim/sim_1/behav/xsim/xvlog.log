@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/ip/Utility_Vectors_util_vector_logic_0_0/sim/Utility_Vectors_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Utility_Vectors_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/ip/Utility_Vectors_util_reduced_logic_0_0/sim/Utility_Vectors_util_reduced_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Utility_Vectors_util_reduced_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/sim/Utility_Vectors.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Utility_Vectors
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/hdl/Utility_Vectors_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Utility_Vectors_wrapper

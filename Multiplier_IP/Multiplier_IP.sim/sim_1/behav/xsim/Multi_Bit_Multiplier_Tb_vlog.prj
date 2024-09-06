@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Multiplier_IP.ip_user_files/bd/Multi_Bit_Multiplier/sim/Multi_Bit_Multiplier.v" \
+"../../../../Multiplier_IP.srcs/sources_1/bd/Multi_Bit_Multiplier/hdl/Multi_Bit_Multiplier_wrapper.v" \
+"../../../../Multiplier_IP.srcs/sim_1/new/Multi_Bit_Multiplier_Tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

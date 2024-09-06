@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_Nand_Gate_0_0_synth_1" LaunchDir="E:/FYP/FPGA_XILINX 2/VIO_Virtual_Input_Output/VIO_Virtual_Input_Output.runs/design_1_Nand_Gate_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/FYP/FPGA_XILINX 2/VIO_Virtual_Input_Output/VIO_Virtual_Input_Output.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_Nand_Gate_0_0_synth_1"/>
+	</Run>
+</Runs>
+

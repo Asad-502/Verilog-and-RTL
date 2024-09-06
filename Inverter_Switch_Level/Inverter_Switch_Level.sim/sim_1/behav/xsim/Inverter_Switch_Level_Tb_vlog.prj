@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Inverter_Switch_Level.srcs/sources_1/new/Inverter_Switch_Level.v" \
+"../../../../Inverter_Switch_Level.srcs/sim_1/new/Inverter_Switch_Level_Tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

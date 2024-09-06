@@ -1,0 +1,14 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 1edde9d62458492aa488950f315d8106 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCD_7_Seg_Tb_behav xil_defaultlib.BCD_7_Seg_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "E:/FYP/FPGA_XILINX/BCD_7_Seg/BCD_7_Seg.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BCD_7_Seg
+Compiling module xil_defaultlib.BCD_7_Seg_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BCD_7_Seg_Tb_behav
