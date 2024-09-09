@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sources_1/new/N_to_1_Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_to_1_Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sim_1/new/N_to_1_Mux_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module N_to_1_Mux_Tb

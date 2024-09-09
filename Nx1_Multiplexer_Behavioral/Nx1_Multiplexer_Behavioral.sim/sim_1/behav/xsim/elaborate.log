@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 782ae7b7617e4ff4a070e415f8240d1e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot N_to_1_Mux_Tb_behav xil_defaultlib.N_to_1_Mux_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 8 into in is out of bounds [E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sources_1/new/N_to_1_Mux.v:40]
+WARNING: [VRFC 10-1783] select index 9 into in is out of bounds [E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sources_1/new/N_to_1_Mux.v:41]
+WARNING: [VRFC 10-1783] select index 10 into in is out of bounds [E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sources_1/new/N_to_1_Mux.v:42]
+WARNING: [VRFC 10-1783] select index 11 into in is out of bounds [E:/Git_Hub/Verilog/Verilog-and-RTL/Nx1_Multiplexer_Behavioral/Nx1_Multiplexer_Behavioral.srcs/sources_1/new/N_to_1_Mux.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.N_to_1_Mux
+Compiling module xil_defaultlib.N_to_1_Mux_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot N_to_1_Mux_Tb_behav
