@@ -1,0 +1,23 @@
+23:40:27 **** Auto Build of configuration Debug for project BRAM_Test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../BRAM_Test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: BRAM_Test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../BRAM_Test_bsp/ps7_cortexa9_0/lib -o "BRAM_Test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: BRAM_Test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size BRAM_Test.elf  |tee "BRAM_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22212	   1144	  22568	  45924	   b364	BRAM_Test.elf
+'Finished building: BRAM_Test.elf.size'
+' '
+
+23:40:28 Build Finished (took 1s.78ms)
+

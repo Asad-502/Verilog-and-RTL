@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb  3 23:42:14 2025
+# Process ID: 1620
+# Current directory: E:/Git_Hub/FPGA/Verilog/Write_Read_Data_SoC_Application/Bram_Read_Write
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22704 E:\Git_Hub\FPGA\Verilog\Write_Read_Data_SoC_Application\Bram_Read_Write\Bram_Read_Write.xpr
+# Log file: E:/Git_Hub/FPGA/Verilog/Write_Read_Data_SoC_Application/Bram_Read_Write/vivado.log
+# Journal file: E:/Git_Hub/FPGA/Verilog/Write_Read_Data_SoC_Application/Bram_Read_Write\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Git_Hub/FPGA/Verilog/Write_Read_Data_SoC_Application/Bram_Read_Write/Bram_Read_Write.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"namespace eval ::xilinx.com_ip_aximm_1.0 { source -notrace {C:/Xilinx/Vivado/2018.2/data/rsb/busdef/AXIMM/busdef.tcl} }"
+ERROR: [BD 41-69] Error sourcing TCL script: 
+    while executing
+"source -notrace {C:/Xilinx/Vivado/2018.2/data/rsb/busdef/clock_signal/busdef.tcl} "
+    (in namespace eval "::xilinx.com_ip_clock_signal_1.0" script line 1)
+    invoked from within
+"namespace eval ::xilinx.com_ip_clock_signal_1.0 { source -notrace {C:/Xilinx/Vivado/2018.2/data/rsb/busdef/clock_signal/busdef.tcl} }"
+INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb  3 23:42:35 2025...

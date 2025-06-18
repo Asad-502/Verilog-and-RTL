@@ -1,0 +1,59 @@
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd
+xst -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -ifn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.xst" -ofn "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.syr"
+ngdbuild -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "counterwithclock.ngc" counterwithclock.ngd
+map -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o counterwithclock_map.ncd counterwithclock.ngd counterwithclock.pcf
+par -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -w -intstyle ise -ol std -t 1 counterwithclock_map.ncd counterwithclock.ncd counterwithclock.pcf
+trce -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -e 3 -s 4 -xml counterwithclock counterwithclock.ncd -o counterwithclock.twr counterwithclock.pcf -ucf counterwithclock.ucf
+bitgen -ise "C:/Users/Asad/Desktop/counterwithclock/counterwithclock.ise" -intstyle ise -f counterwithclock.ut counterwithclock.ncd

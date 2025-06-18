@@ -1,0 +1,20 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fourbitadder.ngc" fourbitadder.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fourbitadder_map.ncd fourbitadder.ngd fourbitadder.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -w -intstyle ise -ol std -t 1 fourbitadder_map.ncd fourbitadder.ncd fourbitadder.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -e 3 -s 4 -xml fourbitadder fourbitadder.ncd -o fourbitadder.twr fourbitadder.pcf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fourbitadder.ngc" fourbitadder.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fourbitadder_map.ncd fourbitadder.ngd fourbitadder.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -w -intstyle ise -ol std -t 1 fourbitadder_map.ncd fourbitadder.ncd fourbitadder.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -e 3 -s 4 -xml fourbitadder fourbitadder.ncd -o fourbitadder.twr fourbitadder.pcf -ucf fourbitadder.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ise" -intstyle ise -f fourbitadder.ut fourbitadder.ncd

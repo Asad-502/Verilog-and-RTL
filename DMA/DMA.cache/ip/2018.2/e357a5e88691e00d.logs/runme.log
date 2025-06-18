@@ -1,0 +1,1222 @@
+
+*** Running vivado
+    with args -log DMA_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DMA_axi_smc_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source DMA_axi_smc_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP DMA_axi_smc_0, cache-ID = 6d26f6ec54211eec.
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 03:46:24 2024...
+
+*** Running vivado
+    with args -log DMA_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DMA_axi_smc_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source DMA_axi_smc_0.tcl -notrace
+Command: synth_design -top DMA_axi_smc_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10124 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 450.215 ; gain = 110.738
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DMA_axi_smc_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/synth/DMA_axi_smc_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_H6MR3S' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1469]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_one_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_0/synth/bd_c0f8_one_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (1#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_one_0' (2#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_0/synth/bd_c0f8_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_c0f8_psr_aclk_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/synth/bd_c0f8_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/synth/bd_c0f8_psr_aclk_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695' bound to instance 'POR_SRL_I' of component 'SRL16' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695]
+	Parameter INIT bound to: 16'b0000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (4#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'lpf' (5#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+INFO: [Synth 8-638] synthesizing module 'sequence_psr' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-638] synthesizing module 'upcnt_n' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+	Parameter C_SIZE bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'upcnt_n' (6#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:125]
+INFO: [Synth 8-256] done synthesizing module 'sequence_psr' (7#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:301]
+INFO: [Synth 8-256] done synthesizing module 'proc_sys_reset' (8#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+INFO: [Synth 8-256] done synthesizing module 'bd_c0f8_psr_aclk_0' (9#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/synth/bd_c0f8_psr_aclk_0.vhd:74]
+WARNING: [Synth 8-350] instance 'psr_aclk' of module 'bd_c0f8_psr_aclk_0' requires 10 connections, but only 6 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1522]
+WARNING: [Synth 8-3848] Net aresetn_out in module/entity clk_map_imp_H6MR3S does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1497]
+INFO: [Synth 8-6155] done synthesizing module 'clk_map_imp_H6MR3S' (10#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1469]
+WARNING: [Synth 8-350] instance 'clk_map' of module 'clk_map_imp_H6MR3S' requires 15 connections, but only 13 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:758]
+INFO: [Synth 8-6157] synthesizing module 'm00_exit_pipeline_imp_1IQCO6B' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1531]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00e_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_35/synth/bd_c0f8_m00e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00e_0' (24#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_35/synth/bd_c0f8_m00e_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'm00_exit_pipeline_imp_1IQCO6B' (25#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1531]
+INFO: [Synth 8-6157] synthesizing module 'm00_nodes_imp_15GV8SV' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1902]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00arn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_30/synth/bd_c0f8_m00arn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 32 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 1 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 1 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 1 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 1 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 1 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 1 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 5 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 1 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base' (31#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram' (32#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 5120 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 160 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 160 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 160 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 160 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 160 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 160 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 160 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 160 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 160 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 160 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 160 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 160 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 160 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (35#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (35#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00arn_0' (41#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_30/synth/bd_c0f8_m00arn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00awn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_32/synth/bd_c0f8_m00awn_0.sv:58]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00awn_0' (42#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_32/synth/bd_c0f8_m00awn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00bn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_34/synth/bd_c0f8_m00bn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized1' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized1' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 640 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 20 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 20 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 20 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 20 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 20 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 20 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 20 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 20 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 20 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 20 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 20 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 20 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 20 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized1' (42#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized1' (42#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized2' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized2' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 256 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 8 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 8 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 8 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 8 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 8 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 8 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 8 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 8 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 8 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 8 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 8 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized2' (42#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized2' (42#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00bn_0' (43#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_34/synth/bd_c0f8_m00bn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00rn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_31/synth/bd_c0f8_m00rn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized3' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized3' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 2752 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 86 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 86 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 86 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 86 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 86 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 86 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 86 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 86 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 86 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 86 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 86 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 86 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 86 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized3' (43#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized3' (43#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00rn_0' (44#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_31/synth/bd_c0f8_m00rn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00wn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_33/synth/bd_c0f8_m00wn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized4' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized4' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 4 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 1 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 1 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 2 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 1 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 1 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 1 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 2 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 0 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 1 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 1 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 4 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 1 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 2 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 2 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 2 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 2 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 5 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 1 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized4' (44#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized4' (44#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized5' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized5' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 3456 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 108 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 108 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 108 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 108 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 108 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 108 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 108 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 108 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 108 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 108 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 108 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 108 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 108 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized5' (44#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized5' (44#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00wn_0' (45#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_33/synth/bd_c0f8_m00wn_0.sv:58]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'm00_nodes_imp_15GV8SV' (46#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1902]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_m00s2a_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_29/synth/bd_c0f8_m00s2a_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_m00s2a_0' (48#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_29/synth/bd_c0f8_m00s2a_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s00a2s_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_10/synth/bd_c0f8_s00a2s_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s00a2s_0' (50#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_10/synth/bd_c0f8_s00a2s_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 's00_entry_pipeline_imp_JJ9SGW' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:2207]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s00mmu_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_7/synth/bd_c0f8_s00mmu_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s00mmu_0' (55#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_7/synth/bd_c0f8_s00mmu_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s00sic_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_9/synth/bd_c0f8_s00sic_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s00sic_0' (58#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_9/synth/bd_c0f8_s00sic_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s00tr_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_8/synth/bd_c0f8_s00tr_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s00tr_0' (61#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_8/synth/bd_c0f8_s00tr_0.sv:58]
+WARNING: [Synth 8-350] instance 's00_transaction_regulator' of module 'bd_c0f8_s00tr_0' requires 82 connections, but only 78 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:2731]
+INFO: [Synth 8-6155] done synthesizing module 's00_entry_pipeline_imp_JJ9SGW' (62#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:2207]
+INFO: [Synth 8-6157] synthesizing module 's00_nodes_imp_N98DBU' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:2812]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sarn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_11/synth/bd_c0f8_sarn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized6' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized6' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 608 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 19 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 19 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 19 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 19 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 19 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 19 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 19 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 19 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 19 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 19 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 19 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 19 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 19 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized6' (62#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized6' (62#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized7' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized7' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 4512 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 141 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 141 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 141 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 141 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 141 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 141 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 141 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 141 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 141 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 141 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 141 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 141 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 141 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* ram_ecc = "no_ecc" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized7' (62#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized7' (62#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Synth 8-5772] Detected attribute (* rw_addr_collision = "yes" *) on RAM gen_wr_a.gen_word_narrow.mem_reg 
+INFO: [Common 17-14] Message 'Synth 8-5772' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sarn_0' (63#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_11/synth/bd_c0f8_sarn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sawn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_13/synth/bd_c0f8_sawn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sawn_0' (64#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_13/synth/bd_c0f8_sawn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sbn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_15/synth/bd_c0f8_sbn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized8' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized8' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 832 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 26 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 26 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 26 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 26 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 26 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 26 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 26 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 26 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 26 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 26 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 26 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 26 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 26 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized8' (64#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized8' (64#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sbn_0' (65#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_15/synth/bd_c0f8_sbn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_srn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_12/synth/bd_c0f8_srn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized9' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized9' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 3328 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 104 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 104 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 104 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 104 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 104 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 104 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 104 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 104 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 104 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 104 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 104 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 104 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 104 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized9' (66#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized9' (66#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_srn_0' (67#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_12/synth/bd_c0f8_srn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_swn_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_14/synth/bd_c0f8_swn_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized10' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized10' [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+	Parameter MEMORY_TYPE bound to: 1 - type: integer 
+	Parameter MEMORY_SIZE bound to: 2848 - type: integer 
+	Parameter MEMORY_PRIMITIVE bound to: 1 - type: integer 
+	Parameter CLOCKING_MODE bound to: 0 - type: integer 
+	Parameter ECC_MODE bound to: 0 - type: integer 
+	Parameter MEMORY_INIT_FILE bound to: none - type: string 
+	Parameter MEMORY_INIT_PARAM bound to: (null) - type: string 
+	Parameter USE_MEM_INIT bound to: 0 - type: integer 
+	Parameter MEMORY_OPTIMIZATION bound to: true - type: string 
+	Parameter WAKEUP_TIME bound to: 0 - type: integer 
+	Parameter AUTO_SLEEP_TIME bound to: 0 - type: integer 
+	Parameter MESSAGE_CONTROL bound to: 0 - type: integer 
+	Parameter VERSION bound to: 0 - type: integer 
+	Parameter USE_EMBEDDED_CONSTRAINT bound to: 0 - type: integer 
+	Parameter WRITE_DATA_WIDTH_A bound to: 89 - type: integer 
+	Parameter READ_DATA_WIDTH_A bound to: 89 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_A bound to: 89 - type: integer 
+	Parameter ADDR_WIDTH_A bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_A bound to: 0 - type: string 
+	Parameter READ_LATENCY_A bound to: 2 - type: integer 
+	Parameter WRITE_MODE_A bound to: 1 - type: integer 
+	Parameter WRITE_DATA_WIDTH_B bound to: 89 - type: integer 
+	Parameter READ_DATA_WIDTH_B bound to: 89 - type: integer 
+	Parameter BYTE_WRITE_WIDTH_B bound to: 89 - type: integer 
+	Parameter ADDR_WIDTH_B bound to: 5 - type: integer 
+	Parameter READ_RESET_VALUE_B bound to: 0 - type: string 
+	Parameter READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter WRITE_MODE_B bound to: 1 - type: integer 
+	Parameter P_MEMORY_PRIMITIVE bound to: distributed - type: string 
+	Parameter P_MIN_WIDTH_DATA_A bound to: 89 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_B bound to: 89 - type: integer 
+	Parameter P_MIN_WIDTH_DATA bound to: 89 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_ECC bound to: 89 - type: integer 
+	Parameter P_MAX_DEPTH_DATA bound to: 32 - type: integer 
+	Parameter P_ECC_MODE bound to: no_ecc - type: string 
+	Parameter P_MEMORY_OPT bound to: yes - type: string 
+	Parameter P_WIDTH_COL_WRITE_A bound to: 89 - type: integer 
+	Parameter P_WIDTH_COL_WRITE_B bound to: 89 - type: integer 
+	Parameter P_NUM_COLS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_COLS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_WRITE_B bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_A bound to: 1 - type: integer 
+	Parameter P_NUM_ROWS_READ_B bound to: 1 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_WRITE_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_A bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_READ_B bound to: 5 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_WRITE_B bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_A bound to: 0 - type: integer 
+	Parameter P_WIDTH_ADDR_LSB_READ_B bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_A bound to: 0 - type: integer 
+	Parameter P_ENABLE_BYTE_WRITE_B bound to: 0 - type: integer 
+	Parameter P_SDP_WRITE_MODE bound to: yes - type: string 
+	Parameter NUM_CHAR_LOC bound to: 0 - type: integer 
+	Parameter MAX_NUM_CHAR bound to: 0 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_SHFT bound to: 89 - type: integer 
+	Parameter P_MIN_WIDTH_DATA_LDW bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized10' (69#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized10' (69#1) [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:6888]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_swn_0' (70#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_14/synth/bd_c0f8_swn_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 's00_nodes_imp_N98DBU' (71#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:2812]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s01a2s_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_19/synth/bd_c0f8_s01a2s_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s01a2s_0' (72#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_19/synth/bd_c0f8_s01a2s_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 's01_entry_pipeline_imp_1PCLL10' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3108]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s01mmu_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_16/synth/bd_c0f8_s01mmu_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s01mmu_0' (73#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_16/synth/bd_c0f8_s01mmu_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s01sic_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_18/synth/bd_c0f8_s01sic_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s01sic_0' (74#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_18/synth/bd_c0f8_s01sic_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s01tr_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_17/synth/bd_c0f8_s01tr_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s01tr_0' (75#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_17/synth/bd_c0f8_s01tr_0.sv:58]
+WARNING: [Synth 8-350] instance 's01_transaction_regulator' of module 'bd_c0f8_s01tr_0' requires 38 connections, but only 36 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3353]
+INFO: [Synth 8-6155] done synthesizing module 's01_entry_pipeline_imp_1PCLL10' (76#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3108]
+INFO: [Synth 8-6157] synthesizing module 's01_nodes_imp_1LED7V0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3392]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sarn_1' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_20/synth/bd_c0f8_sarn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sarn_1' (77#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_20/synth/bd_c0f8_sarn_1.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_srn_1' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_21/synth/bd_c0f8_srn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_srn_1' (78#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_21/synth/bd_c0f8_srn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 's01_nodes_imp_1LED7V0' (79#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3392]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s02a2s_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_25/synth/bd_c0f8_s02a2s_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s02a2s_0' (80#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_25/synth/bd_c0f8_s02a2s_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 's02_entry_pipeline_imp_1BQ0FIH' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3523]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s02mmu_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_22/synth/bd_c0f8_s02mmu_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s02mmu_0' (81#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_22/synth/bd_c0f8_s02mmu_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s02sic_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_24/synth/bd_c0f8_s02sic_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s02sic_0' (82#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_24/synth/bd_c0f8_s02sic_0.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_s02tr_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_23/synth/bd_c0f8_s02tr_0.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_s02tr_0' (83#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_23/synth/bd_c0f8_s02tr_0.sv:58]
+WARNING: [Synth 8-350] instance 's02_transaction_regulator' of module 'bd_c0f8_s02tr_0' requires 46 connections, but only 44 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3819]
+INFO: [Synth 8-6155] done synthesizing module 's02_entry_pipeline_imp_1BQ0FIH' (84#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3523]
+INFO: [Synth 8-6157] synthesizing module 's02_nodes_imp_1DLGVYV' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3866]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sawn_1' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_26/synth/bd_c0f8_sawn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sawn_1' (85#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_26/synth/bd_c0f8_sawn_1.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_sbn_1' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_28/synth/bd_c0f8_sbn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_sbn_1' (86#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_28/synth/bd_c0f8_sbn_1.sv:58]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_swn_1' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_27/synth/bd_c0f8_swn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_swn_1' (87#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_27/synth/bd_c0f8_swn_1.sv:58]
+INFO: [Synth 8-6155] done synthesizing module 's02_nodes_imp_1DLGVYV' (88#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:3866]
+INFO: [Synth 8-6157] synthesizing module 'switchboards_imp_FKVTKE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:4052]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_arsw_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_2/synth/bd_c0f8_arsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_arsw_0' (91#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_2/synth/bd_c0f8_arsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_awsw_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_4/synth/bd_c0f8_awsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_awsw_0' (92#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_4/synth/bd_c0f8_awsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_bsw_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_6/synth/bd_c0f8_bsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_bsw_0' (93#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_6/synth/bd_c0f8_bsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_rsw_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_3/synth/bd_c0f8_rsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_rsw_0' (94#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_3/synth/bd_c0f8_rsw_0.sv:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_wsw_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_5/synth/bd_c0f8_wsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_wsw_0' (95#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_5/synth/bd_c0f8_wsw_0.sv:57]
+INFO: [Synth 8-6155] done synthesizing module 'switchboards_imp_FKVTKE' (96#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:4052]
+WARNING: [Synth 8-350] instance 'switchboards' of module 'switchboards_imp_FKVTKE' requires 127 connections, but only 102 given [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1364]
+WARNING: [Synth 8-3848] Net M01_AXI_araddr in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:178]
+WARNING: [Synth 8-3848] Net M01_AXI_arburst in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:179]
+WARNING: [Synth 8-3848] Net M01_AXI_arcache in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:180]
+WARNING: [Synth 8-3848] Net M01_AXI_arlen in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:181]
+WARNING: [Synth 8-3848] Net M01_AXI_arlock in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:182]
+WARNING: [Synth 8-3848] Net M01_AXI_arprot in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:183]
+WARNING: [Synth 8-3848] Net M01_AXI_arqos in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:184]
+WARNING: [Synth 8-3848] Net M01_AXI_arsize in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:186]
+WARNING: [Synth 8-3848] Net M01_AXI_arvalid in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:187]
+WARNING: [Synth 8-3848] Net M01_AXI_awaddr in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:188]
+WARNING: [Synth 8-3848] Net M01_AXI_awburst in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:189]
+WARNING: [Synth 8-3848] Net M01_AXI_awcache in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:190]
+WARNING: [Synth 8-3848] Net M01_AXI_awlen in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:191]
+WARNING: [Synth 8-3848] Net M01_AXI_awlock in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:192]
+WARNING: [Synth 8-3848] Net M01_AXI_awprot in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:193]
+WARNING: [Synth 8-3848] Net M01_AXI_awqos in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:194]
+WARNING: [Synth 8-3848] Net M01_AXI_awsize in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:196]
+WARNING: [Synth 8-3848] Net M01_AXI_awvalid in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:197]
+WARNING: [Synth 8-3848] Net M01_AXI_bready in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:198]
+WARNING: [Synth 8-3848] Net M01_AXI_rready in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:203]
+WARNING: [Synth 8-3848] Net M01_AXI_wdata in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:206]
+WARNING: [Synth 8-3848] Net M01_AXI_wlast in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:207]
+WARNING: [Synth 8-3848] Net M01_AXI_wstrb in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:209]
+WARNING: [Synth 8-3848] Net M01_AXI_wvalid in module/entity bd_c0f8 does not have driver. [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:210]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8' (97#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'DMA_axi_smc_0' (98#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/synth/DMA_axi_smc_0.v:57]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized12 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized12 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized12 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_onehot_to_binary__parameterized2 has unconnected port din[0]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized19 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized19 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized19 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[2]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port connectivity[0]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_send[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_send[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_send[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_req[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_req[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_req[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_info[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_info[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized2 has unconnected port s_sc_info[1]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized15 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized15 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized15 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_onehot_to_binary__parameterized3 has unconnected port din[0]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized17 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized17 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized17 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[2]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port connectivity[0]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_send[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_send[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_send[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_req[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_req[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_req[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_info[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_info[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized1 has unconnected port s_sc_info[3]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized14 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized14 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized14 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[2]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port connectivity[0]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_send[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_send[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_send[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_req[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_req[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_req[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_info[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_info[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top__parameterized0 has unconnected port s_sc_info[3]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized11 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized11 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized11 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[4]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[2]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port connectivity[0]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_send[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_send[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_send[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_req[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_req[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_req[1]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_info[5]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_info[3]
+WARNING: [Synth 8-3331] design sc_switchboard_v1_0_5_top has unconnected port s_sc_info[1]
+WARNING: [Synth 8-3331] design switchboards_imp_FKVTKE has unconnected port aresetn
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_onehot_to_binary__parameterized0 has unconnected port din[0]
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized0 has unconnected port aclk
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized0 has unconnected port aclken
+WARNING: [Synth 8-3331] design sc_util_v1_0_3_pipeline__parameterized0 has unconnected port areset
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[88]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[87]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[86]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[85]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[84]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[83]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[82]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[81]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[80]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[79]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[78]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[77]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[76]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[75]
+WARNING: [Synth 8-3331] design sc_node_v1_0_9_ingress__parameterized8 has unconnected port s_sc_payld[74]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:30 . Memory (MB): peak = 642.695 ; gain = 303.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:32 . Memory (MB): peak = 642.695 ; gain = 303.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:32 . Memory (MB): peak = 642.695 ; gain = 303.219
+---------------------------------------------------------------------------------

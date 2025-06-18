@@ -1,0 +1,8 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sim_1/new/Sequence_Detectors_Tb.v,1750182952,verilog,,,,Sequence_Detectors_Tb,,,,,,,,
+C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sources_1/new/Sequence_Detectors.v,1749895196,verilog,,C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sources_1/new/Sequence_Detectors_Top.v,,meal_seq_detector_1101_non_ovlp;meal_seq_detector_1101_ovlp;moor_seq_detector_1101_non_ovlp;moor_seq_detector_1101_ovlp,,,,,,,,
+C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sources_1/new/Sequence_Detectors_Top.v,1749896269,verilog,,C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sim_1/new/Sequence_Detectors_Tb.v,,Sequence_Detectors_Top,,,,,,,,

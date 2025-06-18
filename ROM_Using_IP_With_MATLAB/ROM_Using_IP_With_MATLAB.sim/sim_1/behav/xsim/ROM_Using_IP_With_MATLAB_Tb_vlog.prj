@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/ip/ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0/sim/ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0.v" \
+"../../../../ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/sim/ROM_Using_IP_With_MATLAB.v" \
+"../../../../ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/hdl/ROM_Using_IP_With_MATLAB_wrapper.v" \
+"../../../../ROM_Using_IP_With_MATLAB.srcs/sim_1/new/ROM_Using_IP_With_MATLAB_Tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

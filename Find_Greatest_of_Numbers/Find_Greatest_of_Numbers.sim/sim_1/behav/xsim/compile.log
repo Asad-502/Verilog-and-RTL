@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Find_Greatest_of_Numbers/Find_Greatest_of_Numbers.srcs/sources_1/new/Greatest_By_Tertiary_Operator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Greatest_By_Tertiary_Operator
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Find_Greatest_of_Numbers/Find_Greatest_of_Numbers.srcs/sim_1/new/Greatest_By_Tertiary_Operator_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Greatest_By_Tertiary_Operator_Tb

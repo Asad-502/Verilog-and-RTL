@@ -1,0 +1,97 @@
+
+*** Running vivado
+    with args -log DMA_axi_smc_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source DMA_axi_smc_0.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source DMA_axi_smc_0.tcl -notrace
+Command: synth_design -top DMA_axi_smc_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14648 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 450.207 ; gain = 110.895
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DMA_axi_smc_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/synth/DMA_axi_smc_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:10]
+INFO: [Synth 8-6157] synthesizing module 'clk_map_imp_H6MR3S' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/synth/bd_c0f8.v:1392]
+INFO: [Synth 8-6157] synthesizing module 'bd_c0f8_one_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_0/synth/bd_c0f8_one_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_5_xlconstant' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_5_xlconstant' (1#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f1c3/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd_c0f8_one_0' (2#1) [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_0/synth/bd_c0f8_one_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'bd_c0f8_psr_aclk_0' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/synth/bd_c0f8_psr_aclk_0.vhd:74]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'proc_sys_reset' declared at 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1264' bound to instance 'U0' of component 'proc_sys_reset' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/synth/bd_c0f8_psr_aclk_0.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'proc_sys_reset' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1323]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+	Parameter C_NUM_BUS_RST bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_RST bound to: 1 - type: integer 
+	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer 
+	Parameter C_NUM_PERP_ARESETN bound to: 1 - type: integer 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_inst' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1392]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1408]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_BSR_N' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1434]
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1457]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'FDRE_PER_N' to cell 'FDRE' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:1481]
+INFO: [Synth 8-638] synthesizing module 'lpf' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:816]
+	Parameter C_EXT_RST_WIDTH bound to: 4 - type: integer 
+	Parameter C_AUX_RST_WIDTH bound to: 1 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
+	Parameter C_AUX_RESET_HIGH bound to: 1'b0 
+INFO: [Synth 8-3491] module 'SRL16' declared at 'C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695' bound to instance 'POR_SRL_I' of component 'SRL16' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/f86a/hdl/proc_sys_reset_v5_0_vh_rfs.vhd:868]
+INFO: [Synth 8-6157] synthesizing module 'SRL16' [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695]
+	Parameter INIT bound to: 16'b0000000000000000 
+INFO: [Synth 8-6155] done synthesizing module 'SRL16' (3#1) [C:/Xilinx/Vivado/2018.2/scripts/rt/data/unisim_comp.v:50695]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter C_CDC_TYPE bound to: 1 - type: integer 
+	Parameter C_RESET_STATE bound to: 0 - type: integer 
+	Parameter C_SINGLE_BIT bound to: 1 - type: integer 
+	Parameter C_FLOP_INPUT bound to: 0 - type: integer 
+	Parameter C_VECTOR_WIDTH bound to: 2 - type: integer 
+	Parameter C_MTBF_STAGES bound to: 4 - type: integer 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd:554]

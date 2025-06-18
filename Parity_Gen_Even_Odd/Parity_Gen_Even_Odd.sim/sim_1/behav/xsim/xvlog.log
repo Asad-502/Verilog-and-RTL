@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Parity_Gen_Even_Odd/Parity_Gen_Even_Odd.srcs/sources_1/new/Parity_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Parity_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Parity_Gen_Even_Odd/Parity_Gen_Even_Odd.srcs/sim_1/new/Parity_Gen_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Parity_Gen_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Parity_Gen_Even_Odd/Parity_Gen_Even_Odd.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

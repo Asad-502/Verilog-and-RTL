@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Func_Generator_Basic/Func_Generator_Basic.srcs/sources_1/new/Func_Generator_Basic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Func_Generator_Basic
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Func_Generator_Basic/Func_Generator_Basic.srcs/sim_1/new/Func_Generator_Basic_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Func_Generator_Basic_Tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/Func_Generator_Basic/Func_Generator_Basic.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

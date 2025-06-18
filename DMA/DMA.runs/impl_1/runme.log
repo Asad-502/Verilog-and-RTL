@@ -1,0 +1,284 @@
+
+*** Running vivado
+    with args -log DMA_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source DMA_wrapper.tcl -notrace
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source DMA_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+add_files: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 342.023 ; gain = 54.875
+Command: link_design -top DMA_wrapper -part xc7z010clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_dma_0_0/DMA_axi_dma_0_0.dcp' for cell 'DMA_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/DMA_axi_smc_0.dcp' for cell 'DMA_i/axi_smc'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axis_data_fifo_0_0/DMA_axis_data_fifo_0_0.dcp' for cell 'DMA_i/axis_data_fifo_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_processing_system7_0_0/DMA_processing_system7_0_0.dcp' for cell 'DMA_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_rst_ps7_0_100M_0/DMA_rst_ps7_0_100M_0.dcp' for cell 'DMA_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_xlconcat_0_0/DMA_xlconcat_0_0.dcp' for cell 'DMA_i/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint 'e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_auto_pc_0/DMA_auto_pc_0.dcp' for cell 'DMA_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 406 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_processing_system7_0_0/DMA_processing_system7_0_0.xdc] for cell 'DMA_i/processing_system7_0/inst'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_processing_system7_0_0/DMA_processing_system7_0_0.xdc] for cell 'DMA_i/processing_system7_0/inst'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_dma_0_0/DMA_axi_dma_0_0.xdc] for cell 'DMA_i/axi_dma_0/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_dma_0_0/DMA_axi_dma_0_0.xdc] for cell 'DMA_i/axi_dma_0/U0'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/bd_c0f8_psr_aclk_0_board.xdc] for cell 'DMA_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/bd_c0f8_psr_aclk_0_board.xdc] for cell 'DMA_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/bd_c0f8_psr_aclk_0.xdc] for cell 'DMA_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_smc_0/bd_0/ip/ip_1/bd_c0f8_psr_aclk_0.xdc] for cell 'DMA_i/axi_smc/inst/clk_map/psr_aclk/U0'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_rst_ps7_0_100M_0/DMA_rst_ps7_0_100M_0_board.xdc] for cell 'DMA_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_rst_ps7_0_100M_0/DMA_rst_ps7_0_100M_0_board.xdc] for cell 'DMA_i/rst_ps7_0_100M/U0'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_rst_ps7_0_100M_0/DMA_rst_ps7_0_100M_0.xdc] for cell 'DMA_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_rst_ps7_0_100M_0/DMA_rst_ps7_0_100M_0.xdc] for cell 'DMA_i/rst_ps7_0_100M/U0'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axis_data_fifo_0_0/DMA_axis_data_fifo_0_0/DMA_axis_data_fifo_0_0.xdc] for cell 'DMA_i/axis_data_fifo_0/inst'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axis_data_fifo_0_0/DMA_axis_data_fifo_0_0/DMA_axis_data_fifo_0_0.xdc] for cell 'DMA_i/axis_data_fifo_0/inst'
+Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_dma_0_0/DMA_axi_dma_0_0_clocks.xdc] for cell 'DMA_i/axi_dma_0/U0'
+Finished Parsing XDC File [e:/FYP/FPGA_XILINX 2/DMA/DMA.srcs/sources_1/bd/DMA/ip/DMA_axi_dma_0_0/DMA_axi_dma_0_0_clocks.xdc] for cell 'DMA_i/axi_dma_0/U0'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.xpm_cdc_sync_rst_inst_wrst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.gen_node_prog_full.inst_node_prog_full/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[2].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[2].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[1].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+Finished Sourcing Tcl File [C:/Xilinx/Vivado/2018.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl] for cell 'DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 299 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 3 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 289 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 7 instances
+
+17 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:21 . Memory (MB): peak = 780.168 ; gain = 438.145
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 790.797 ; gain = 10.629
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1e61dd865
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 1348.797 ; gain = 557.750
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 21 inverter(s) to 97 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 15f631d07
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 1 load pin(s).
+Phase 2 Constant propagation | Checksum: 1dcb31dc2
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 388 cells and removed 1071 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1207a628a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 2193 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1207a628a
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 16ebf9219
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1f41eef73
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1348.797 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 1 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1348.797 ; gain = 0.000
+
+*** Running vivado
+    with args -log DMA_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source DMA_wrapper.tcl -notrace
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source DMA_wrapper.tcl -notrace
+Command: open_checkpoint DMA_wrapper_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 230.621 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 250 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1231.395 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1231.395 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 159 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 157 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.2 (64-bit) build 2258646
+open_checkpoint: Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1231.395 ; gain = 1010.199
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s02_nodes/s02_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s02_nodes/s02_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s02_nodes/s02_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s01_nodes/s01_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s01_nodes/s01_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_w_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/s00_nodes/s00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[2].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[2].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_si_handler/gen_si_handler.gen_request_fifos.gen_req_fifo[0].inst_req_fifo/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_w_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_r_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_b_node/inst/inst_mi_handler/gen_normal_area.gen_fifo_req.inst_fifo_req/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_aw_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to distributed. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_smc/inst/m00_nodes/m00_ar_node/inst/inst_mi_handler/gen_normal_area.inst_fifo_node_payld/gen_xpm_memory_fifo.inst_fifo/gen_mem_rep[0].inst_xpm_memory/xpm_memory_base_inst block.
+INFO: [Memdata 28-167] Found XPM memory block DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <DMA_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <DMA_i/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force DMA_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC RTSTAT-10] No routable loads: 4 net(s) have no routable loads. The problem bus(es) and/or net(s) are DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_fb, DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_afull_i, and DMA_i/axis_data_fifo_0/inst/gen_fifo_generator.fifo_generator_inst/inst_fifo_gen/gaxis_fifo.gaxisf.axisf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/ram_empty_i.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_MM2S_FULL.I_MM2S_FULL_WRAPPER/GEN_INCLUDE_MM2S_SF.I_RD_SF/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-181] writefirst: Synchronous clocking is detected for BRAM (DMA_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with WRITE_FIRST write-mode. This is the preferred mode for best power characteristics, however it may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings, 2 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./DMA_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+Access is denied.
+Access is denied.
+INFO: [Common 17-83] Releasing license: Implementation
+48 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1702.699 ; gain = 471.305
+INFO: [Common 17-206] Exiting Vivado at Mon Apr  1 00:16:07 2024...

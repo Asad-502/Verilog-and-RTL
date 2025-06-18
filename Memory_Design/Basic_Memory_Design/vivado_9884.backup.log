@@ -1,0 +1,3005 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Aug  4 09:20:29 2023
+# Process ID: 9884
+# Current directory: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8892 C:\Users\Asad Ur Rehman\Desktop\Memory_Design\Basic_Memory_Design\Basic_Memory_Design.xpr
+# Log file: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/vivado.log
+# Journal file: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 888.027 ; gain = 120.238
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Asad -notrace
+couldn't read file "C:/Users/Asad": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug  4 09:21:29 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :    1, Data:  x
+Address :    2, Data:  x
+Address :    3, Data:  x
+Address :    4, Data:  x
+Address :    5, Data:  x
+Address :    6, Data:  x
+Address :    7, Data:  x
+Address :    8, Data:  x
+Address :    9, Data:  x
+Address :   10, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 902.215 ; gain = 10.816
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 947.656 ; gain = 0.000
+run 10 ms
+Address :  292, Data: 72
+Address :  641, Data:  2
+Address :  521, Data: 18
+Address :  611, Data:198
+Address :  781, Data: 26
+Address :  397, Data: 26
+Address :  101, Data:202
+Address :  530, Data: 36
+Address :  769, Data:  2
+Address :  269, Data: 26
+run all
+run all
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 949.473 ; gain = 0.000
+run all
+Address :  292, Data: 72
+Address :  641, Data:  2
+Address :  521, Data: 18
+Address :  611, Data:198
+Address :  781, Data: 26
+Address :  397, Data: 26
+Address :  101, Data:202
+Address :  530, Data: 36
+Address :  769, Data:  2
+Address :  269, Data: 26
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :  292, Data:  x
+Address :  641, Data:  x
+Address :  521, Data:  x
+Address :  611, Data:  x
+Address :  781, Data:  x
+Address :  397, Data:  x
+Address :  101, Data:  x
+Address :  530, Data:  x
+Address :  769, Data:  x
+Address :  269, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 951.102 ; gain = 0.949
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 957.719 ; gain = 1.086
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 960.508 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 961.309 ; gain = 0.801
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_ram_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:12 . Memory (MB): peak = 965.922 ; gain = 3.445
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'single_port_ram_testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj single_port_ram_testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_port_ram_testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot single_port_ram_testbench_behav xil_defaultlib.single_port_ram_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.single_port_ram
+Compiling module xil_defaultlib.single_port_ram_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot single_port_ram_testbench_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Asad -notrace
+couldn't read file "C:/Users/Asad": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Fri Aug  4 11:46:57 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "single_port_ram_testbench_behav -key {Behavioral:sim_1:Functional:single_port_ram_testbench} -tclbatch {single_port_ram_testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source single_port_ram_testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 140 ns : File "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 76
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'single_port_ram_testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 965.922 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 967.324 ; gain = 1.402
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 968.320 ; gain = 0.938
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 969.727 ; gain = 0.000
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 969.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 973.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 973.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 973.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 973.059 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 974.035 ; gain = 0.977
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 975.520 ; gain = 1.484
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 976.387 ; gain = 0.820
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 977.066 ; gain = 0.680
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 977.824 ; gain = 0.688
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 977.918 ; gain = 0.055
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 980.496 ; gain = 2.230
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 982.227 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :  292, Data:  x
+Address :  641, Data:  x
+Address :  521, Data:  x
+Address :  611, Data:  x
+Address :  781, Data:  x
+Address :  397, Data:  x
+Address :  101, Data:  x
+Address :  530, Data:  x
+Address :  769, Data:  x
+Address :  269, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :  889, Data:  x
+Address :  565, Data:  x
+Address :  475, Data:  x
+Address :  433, Data:  x
+Address :  678, Data:  x
+Address :  128, Data:  x
+Address :   84, Data:  x
+Address :  542, Data:  x
+Address :  694, Data:  x
+Address :  557, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :    6, Data:  x
+Address :    4, Data:  x
+Address :    6, Data:  x
+Address :    9, Data:  x
+Address :    2, Data:  x
+Address :    7, Data:  x
+Address :    5, Data: 10
+Address :    6, Data: 12
+Address :    7, Data: 14
+Address :    8, Data: 16
+Address :    9, Data: 18
+Address :   10, Data: 20
+Address :   11, Data: 22
+Address :   12, Data: 24
+Address :   13, Data: 26
+Address :   14, Data: 28
+Address :   15, Data: 30
+Address :   16, Data: 32
+Address :   17, Data: 34
+Address :   18, Data: 36
+Address :   19, Data: 38
+Address :   20, Data: 40
+Address :   21, Data: 42
+Address :   22, Data: 44
+Address :   23, Data: 46
+Address :   24, Data: 48
+Address :   25, Data: 50
+Address :   26, Data: 52
+Address :   27, Data: 54
+Address :   28, Data: 56
+Address :   29, Data: 58
+Address :   30, Data: 60
+Address :   31, Data: 62
+Address :   32, Data: 64
+Address :   33, Data: 66
+Address :   34, Data: 68
+Address :   35, Data: 70
+Address :   36, Data: 72
+Address :   37, Data: 74
+Address :   38, Data: 76
+Address :   39, Data: 78
+Address :   40, Data: 80
+Address :   41, Data: 82
+Address :   42, Data: 84
+Address :   43, Data: 86
+Address :   44, Data: 88
+Address :   45, Data: 90
+Address :   46, Data: 92
+Address :   47, Data: 94
+Address :   48, Data: 96
+Address :   49, Data: 98
+Address :   50, Data:100
+Address :   51, Data:102
+Address :   52, Data:104
+Address :   53, Data:106
+Address :   54, Data:108
+Address :   55, Data:110
+Address :   56, Data:112
+Address :   57, Data:114
+Address :   58, Data:116
+Address :   59, Data:118
+Address :   60, Data:120
+Address :   61, Data:122
+Address :   62, Data:124
+Address :   63, Data:126
+Address :   64, Data:128
+Address :   65, Data:130
+Address :   66, Data:132
+Address :   67, Data:134
+Address :   68, Data:136
+Address :   69, Data:138
+Address :   70, Data:140
+Address :   71, Data:142
+Address :   72, Data:144
+Address :   73, Data:146
+Address :   74, Data:148
+Address :   75, Data:150
+Address :   76, Data:152
+Address :   77, Data:154
+Address :   78, Data:156
+Address :   79, Data:158
+Address :   80, Data:160
+Address :   81, Data:162
+Address :   82, Data:164
+Address :   83, Data:166
+Address :   84, Data:168
+Address :   85, Data:170
+Address :   86, Data:172
+Address :   87, Data:174
+Address :   88, Data:176
+Address :   89, Data:178
+Address :   90, Data:180
+Address :   91, Data:182
+Address :   92, Data:184
+Address :   93, Data:186
+Address :   94, Data:188
+Address :   95, Data:190
+Address :   96, Data:192
+Address :   97, Data:194
+Address :   98, Data:196
+Address :   99, Data:198
+Address :  100, Data:200
+Address :  101, Data:202
+Address :  102, Data:204
+Address :  103, Data:206
+Address :  104, Data:208
+Address :  105, Data:210
+Address :  106, Data:212
+Address :  107, Data:214
+Address :  108, Data:216
+Address :  109, Data:218
+Address :  110, Data:220
+Address :  111, Data:222
+Address :  112, Data:224
+Address :  113, Data:226
+Address :  114, Data:228
+Address :  115, Data:230
+Address :  116, Data:232
+Address :  117, Data:234
+Address :  118, Data:236
+Address :  119, Data:238
+Address :  120, Data:240
+Address :  121, Data:242
+Address :  122, Data:244
+Address :  123, Data:246
+Address :  124, Data:248
+Address :  125, Data:250
+Address :  126, Data:252
+Address :  127, Data:254
+Address :  128, Data:  0
+Address :  129, Data:  2
+Address :  130, Data:  4
+Address :  131, Data:  6
+Address :  132, Data:  8
+Address :  133, Data: 10
+Address :  134, Data: 12
+Address :  135, Data: 14
+Address :  136, Data: 16
+Address :  137, Data: 18
+Address :  138, Data: 20
+Address :  139, Data: 22
+Address :  140, Data: 24
+Address :  141, Data: 26
+Address :  142, Data: 28
+Address :  143, Data: 30
+Address :  144, Data: 32
+Address :  145, Data: 34
+Address :  146, Data: 36
+Address :  147, Data: 38
+Address :  148, Data: 40
+Address :  149, Data: 42
+Address :  150, Data: 44
+Address :  151, Data: 46
+Address :  152, Data: 48
+Address :  153, Data: 50
+Address :  154, Data: 52
+Address :  155, Data: 54
+Address :  156, Data: 56
+Address :  157, Data: 58
+Address :  158, Data: 60
+Address :  159, Data: 62
+Address :  160, Data: 64
+Address :  161, Data: 66
+Address :  162, Data: 68
+Address :  163, Data: 70
+Address :  164, Data: 72
+Address :  165, Data: 74
+Address :  166, Data: 76
+Address :  167, Data: 78
+Address :  168, Data: 80
+Address :  169, Data: 82
+Address :  170, Data: 84
+Address :  171, Data: 86
+Address :  172, Data: 88
+Address :  173, Data: 90
+Address :  174, Data: 92
+Address :  175, Data: 94
+Address :  176, Data: 96
+Address :  177, Data: 98
+Address :  178, Data:100
+Address :  179, Data:102
+Address :  180, Data:104
+Address :  181, Data:106
+Address :  182, Data:108
+Address :  183, Data:110
+Address :  184, Data:112
+Address :  185, Data:114
+Address :  186, Data:116
+Address :  187, Data:118
+Address :  188, Data:120
+Address :  189, Data:122
+Address :  190, Data:124
+Address :  191, Data:126
+Address :  192, Data:128
+Address :  193, Data:130
+Address :  194, Data:132
+Address :  195, Data:134
+Address :  196, Data:136
+Address :  197, Data:138
+Address :  198, Data:140
+Address :  199, Data:142
+Address :  200, Data:144
+Address :  201, Data:146
+Address :  202, Data:148
+Address :  203, Data:150
+Address :  204, Data:152
+Address :  205, Data:154
+Address :  206, Data:156
+Address :  207, Data:158
+Address :  208, Data:160
+Address :  209, Data:162
+Address :  210, Data:164
+Address :  211, Data:166
+Address :  212, Data:168
+Address :  213, Data:170
+Address :  214, Data:172
+Address :  215, Data:174
+Address :  216, Data:176
+Address :  217, Data:178
+Address :  218, Data:180
+Address :  219, Data:182
+Address :  220, Data:184
+Address :  221, Data:186
+Address :  222, Data:188
+Address :  223, Data:190
+Address :  224, Data:192
+Address :  225, Data:194
+Address :  226, Data:196
+Address :  227, Data:198
+Address :  228, Data:200
+Address :  229, Data:202
+Address :  230, Data:204
+Address :  231, Data:206
+Address :  232, Data:208
+Address :  233, Data:210
+Address :  234, Data:212
+Address :  235, Data:214
+Address :  236, Data:216
+Address :  237, Data:218
+Address :  238, Data:220
+Address :  239, Data:222
+Address :  240, Data:224
+Address :  241, Data:226
+Address :  242, Data:228
+Address :  243, Data:230
+Address :  244, Data:232
+Address :  245, Data:234
+Address :  246, Data:236
+Address :  247, Data:238
+Address :  248, Data:240
+Address :  249, Data:242
+Address :  250, Data:244
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 990.137 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :    9, Data:  x
+Address :    1, Data:  x
+Address :    4, Data:  x
+Address :    2, Data:  x
+Address :    6, Data:  x
+Address :    3, Data:  x
+Address :    2, Data:  x
+Address :    4, Data:  x
+Address :    7, Data:  x
+Address :    5, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 994.559 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :    9, Data:  x
+Address :    1, Data:  x
+Address :    4, Data:  x
+Address :    2, Data:  x
+Address :    6, Data:  x
+Address :    3, Data:  x
+Address :    2, Data:  x
+Address :    4, Data:  x
+Address :    7, Data:  x
+Address :    5, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 994.559 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Address :    9, Data:  x
+Address :    1, Data:  x
+Address :    4, Data:  x
+Address :    2, Data:  x
+Address :    6, Data:  x
+Address :    3, Data:  x
+Address :    2, Data:  x
+Address :    4, Data:  x
+Address :    7, Data:  x
+Address :    5, Data:  x
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 994.559 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 995.020 ; gain = 0.461
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 995.020 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 995.020 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 995.020 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:21 . Memory (MB): peak = 995.020 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 996.480 ; gain = 0.984
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 999.352 ; gain = 2.871
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1001.887 ; gain = 0.000
+run 10 us
+Address :  292, Data:254
+Address :  641, Data: 72
+Address :  521, Data:  2
+Address :  611, Data: 18
+Address :  781, Data:198
+Address :  397, Data: 26
+Address :  101, Data: 26
+Address :  530, Data:202
+Address :  769, Data: 36
+Address :  269, Data:  2
+$finish called at time : 10355 ns : File "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 107
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1003.523 ; gain = 0.000
+run 10 us
+Address :  292, Data:254
+Address :  641, Data: 72
+Address :  521, Data:  2
+Address :  611, Data: 18
+Address :  781, Data:198
+Address :  397, Data: 26
+Address :  101, Data: 26
+Address :  530, Data:202
+Address :  769, Data: 36
+Address :  269, Data:  2
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1003.523 ; gain = 0.000
+run 10 us
+Address :  292, Data: 72
+Address :  641, Data:  2
+Address :  521, Data: 18
+Address :  611, Data:198
+Address :  781, Data: 26
+Address :  397, Data: 26
+Address :  101, Data:202
+Address :  530, Data: 36
+Address :  769, Data:  2
+Address :  269, Data: 26
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7z020clg484-1
+Top: Basic_Memory_Design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:04 . Memory (MB): peak = 1116.211 ; gain = 112.039
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Basic_Memory_Design' [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:1]
+WARNING: [Synth 8-567] referenced signal 'wr' should be on the sensitivity list [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:10]
+WARNING: [Synth 8-567] referenced signal 'data_in' should be on the sensitivity list [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:10]
+WARNING: [Synth 8-567] referenced signal 'addr' should be on the sensitivity list [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Basic_Memory_Design' (1#1) [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:1]
+WARNING: [Synth 8-3331] design Basic_Memory_Design has unconnected port cs
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 1215.543 ; gain = 211.371
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1215.543 ; gain = 211.371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1215.543 ; gain = 211.371
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1586.336 ; gain = 582.164
+6 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1586.336 ; gain = 582.164
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Netlist 29-17] Analyzing 1555 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Basic_Memory_Design' is not ideal for floorplanning, since the cellview 'Basic_Memory_Design' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1893.879 ; gain = 122.320
+close_design
+close_design
+set_property -name {xsim.simulate.runtime} -value {0.1ms} -objects [get_filesets sim_1]
+update_ip_catalog
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v:]
+update_ip_catalog
+update_ip_catalog
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0.1ms
+Address :  292, Data: 72
+Address :  641, Data:  2
+Address :  521, Data: 18
+Address :  611, Data:198
+Address :  781, Data: 26
+Address :  397, Data: 26
+Address :  101, Data:202
+Address :  530, Data: 36
+Address :  769, Data:  2
+Address :  269, Data: 26
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0.1ms
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 2362.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0.1ms
+Address :  292, Data: 72
+Address :  641, Data:  2
+Address :  521, Data: 18
+Address :  611, Data:198
+Address :  781, Data: 26
+Address :  397, Data: 26
+Address :  101, Data:202
+Address :  530, Data: 36
+Address :  769, Data:  2
+Address :  269, Data: 26
+$finish called at time : 4126 ns : File "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 28
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0.1ms
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 2362.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0.1ms
+Address :  128, Data:254
+Address :  810, Data:254
+Address : 1000, Data:254
+Address :  860, Data:254
+Address :   72, Data:254
+Address :   77, Data:254
+Address :  863, Data:254
+Address :  805, Data:254
+Address :  216, Data:254
+Address :  184, Data:254
+$finish called at time : 4106 ns : File "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 29
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0.1ms
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2362.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Basic_Memory_Design_Tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Basic_Memory_Design_Tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sources_1/new/Basic_Memory_Design.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Memory_Design_Tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7441e1b39cad48c484114d5d996522e0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Basic_Memory_Design_Tb_behav xil_defaultlib.Basic_Memory_Design_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Basic_Memory_Design
+Compiling module xil_defaultlib.Basic_Memory_Design_Tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Basic_Memory_Design_Tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Basic_Memory_Design_Tb_behav -key {Behavioral:sim_1:Functional:Basic_Memory_Design_Tb} -tclbatch {Basic_Memory_Design_Tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Basic_Memory_Design_Tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 0.1ms
+Address :  128, Data:  0
+Address :  810, Data: 84
+Address : 1000, Data:208
+Address :  860, Data:184
+Address :   72, Data:144
+Address :   77, Data:154
+Address :  863, Data:190
+Address :  805, Data: 74
+Address :  216, Data:176
+Address :  184, Data:112
+$finish called at time : 4126 ns : File "C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 29
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Basic_Memory_Design_Tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 0.1ms
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 2362.207 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Aug  5 00:33:58 2023...

@@ -1,0 +1,85 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE\bin\nt\unwrapped\trce.exe -ise
+E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise -intstyle ise -e 3 -s
+4 -xml fourbitadder_df fourbitadder_df.ncd -o fourbitadder_df.twr
+fourbitadder_df.pcf -ucf E:/FYP/FPGA_XILINX 2/fourbitadder/fourbitadder.ucf
+
+Design file:              fourbitadder_df.ncd
+Physical constraint file: fourbitadder_df.pcf
+Device,package,speed:     xc3s500e,fg320,-4 (PRODUCTION 1.27 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |c5             |    8.991|
+a<0>           |s<0>           |    7.592|
+a<0>           |s<1>           |    8.171|
+a<0>           |s<2>           |    7.547|
+a<0>           |s<3>           |    7.954|
+a<1>           |c5             |    8.727|
+a<1>           |s<1>           |    7.658|
+a<1>           |s<2>           |    7.283|
+a<1>           |s<3>           |    7.690|
+a<2>           |c5             |    8.204|
+a<2>           |s<2>           |    6.314|
+a<2>           |s<3>           |    6.895|
+a<3>           |c5             |    8.359|
+a<3>           |s<3>           |    6.801|
+b<0>           |c5             |    9.112|
+b<0>           |s<0>           |    7.713|
+b<0>           |s<1>           |    8.292|
+b<0>           |s<2>           |    7.668|
+b<0>           |s<3>           |    8.075|
+b<1>           |c5             |    8.697|
+b<1>           |s<1>           |    7.628|
+b<1>           |s<2>           |    7.253|
+b<1>           |s<3>           |    7.660|
+b<2>           |c5             |    9.196|
+b<2>           |s<2>           |    7.306|
+b<2>           |s<3>           |    7.887|
+b<3>           |c5             |    9.599|
+b<3>           |s<3>           |    8.041|
+c1             |c5             |    9.297|
+c1             |s<0>           |    7.303|
+c1             |s<1>           |    7.708|
+c1             |s<2>           |    7.853|
+c1             |s<3>           |    8.260|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Jun 23 22:34:36 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 115 MB
+
+
+

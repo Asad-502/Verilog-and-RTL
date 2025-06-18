@@ -1,0 +1,6 @@
+CommandLine
+D:\FYP\Xilinx\ISE\bin\nt\unwrapped\xst.exe -ise E:/FPGA_XILINX 2/second.ise -intstyle ise -ifn E:/FPGA_XILINX 2/second.xst -ofn E:/FPGA_XILINX 2/second.syr -finalclean 1
+s
+FormatString
+xst [-ifn <InputFile>] [-ofn <OutputFile>] [-ise <iseProjectFile>] [--quiet] [-intstyle <Style>] [--deb <DebugLevel>] [--finalclean <Clean>] [--PcubeFlow] [--globOptFlow] [--XstNtrc]
+s

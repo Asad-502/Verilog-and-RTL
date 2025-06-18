@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/ROM_Using_IP_With_MATLAB/ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/ip/ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0/sim/ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_Using_IP_With_MATLAB_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/ROM_Using_IP_With_MATLAB/ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/sim/ROM_Using_IP_With_MATLAB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_Using_IP_With_MATLAB
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/ROM_Using_IP_With_MATLAB/ROM_Using_IP_With_MATLAB.srcs/sources_1/bd/ROM_Using_IP_With_MATLAB/hdl/ROM_Using_IP_With_MATLAB_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_Using_IP_With_MATLAB_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX 2/ROM_Using_IP_With_MATLAB/ROM_Using_IP_With_MATLAB.srcs/sim_1/new/ROM_Using_IP_With_MATLAB_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_Using_IP_With_MATLAB_Tb

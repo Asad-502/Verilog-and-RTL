@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Mealy_Example_2_Way_Process.srcs/sources_1/new/Mealy_Example_2_Way_Process.v" \
+"../../../../Mealy_Example_2_Way_Process.srcs/sim_1/new/Mealy_Example_2_Way_Process_Tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map K.31 on Mon Jun 24 10:04:34 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "q" LOCATE = SITE "J14" LEVEL 1;
+COMP "t" LOCATE = SITE "G18" LEVEL 1;
+COMP "clock" LOCATE = SITE "H18" LEVEL 1;
+PIN clock_pin<0> = BEL "clock" PINNAME PAD;
+PIN "clock_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "reset" LOCATE = SITE "K18" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

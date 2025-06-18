@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1704032304">
+  <File Type="BITSTR-BMM" Name="NAND_Gate_wrapper_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="NAND_Gate_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="NAND_Gate_wrapper_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="NAND_Gate_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="NAND_Gate_wrapper.tcl"/>
+  <File Type="OPT-TIMING" Name="NAND_Gate_wrapper_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="NAND_Gate_wrapper_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="NAND_Gate_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="NAND_Gate_wrapper_reports.tcl"/>
+  <File Type="OPT-DRC" Name="NAND_Gate_wrapper_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="NAND_Gate_wrapper.hwdef"/>
+  <File Type="PWROPT-DCP" Name="NAND_Gate_wrapper_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="NAND_Gate_wrapper_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="NAND_Gate_wrapper_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="NAND_Gate_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="NAND_Gate_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="NAND_Gate_wrapper_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="NAND_Gate_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="NAND_Gate_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="NAND_Gate_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="NAND_Gate_wrapper_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="NAND_Gate_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="NAND_Gate_wrapper.bgn"/>
+  <File Type="PLACE-TIMING" Name="NAND_Gate_wrapper_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="NAND_Gate_wrapper_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="NAND_Gate_wrapper.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="NAND_Gate_wrapper_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="NAND_Gate_wrapper_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="NAND_Gate_wrapper_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="NAND_Gate_wrapper.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="NAND_Gate_wrapper_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="NAND_Gate_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="NAND_Gate_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="NAND_Gate_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="NAND_Gate_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="NAND_Gate_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="NAND_Gate_wrapper.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="NAND_Gate_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="NAND_Gate_wrapper.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="NAND_Gate_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="NAND_Gate_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="NAND_Gate_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="NAND_Gate_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="NAND_Gate_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="NAND_Gate_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="NAND_Gate_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="NAND_Gate_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="NAND_Gate_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="NAND_Gate_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="NAND_Gate_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="NAND_Gate_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="NAND_Gate_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="NAND_Gate_wrapper_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="NAND_Gate_wrapper_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="NAND_Gate_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="NAND_Gate_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="NAND_Gate_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="NAND_Gate_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="NAND_Gate_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="NAND_Gate_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="NAND_Gate_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="NAND_Gate_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="NAND_Gate_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="NAND_Gate_wrapper.rbt"/>
+  <File Type="BITSTR-NKY" Name="NAND_Gate_wrapper.nky"/>
+  <File Type="BG-DRC" Name="NAND_Gate_wrapper.drc"/>
+  <File Type="RDI-RDI" Name="NAND_Gate_wrapper.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/AND_Gate.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/NAND_Gate/NAND_Gate.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/NAND_Gate/hdl/NAND_Gate_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="NAND_Gate_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/NAND_Gate.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_axi_gpio_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_rst_ps7_0_100M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="NAND_Gate_AND_Gate_0_0"/>
+</GenRun>

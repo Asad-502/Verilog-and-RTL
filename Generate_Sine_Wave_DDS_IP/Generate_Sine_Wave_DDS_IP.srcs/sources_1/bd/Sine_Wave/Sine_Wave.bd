@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<bd:repository xmlns:bd="http://www.xilinx.com/bd" bd:BoundaryCRC="0x47754D781C52F611" bd:device="xc7a35tcpg236-1" bd:isValidated="true" bd:synthFlowMode="Hierarchical" bd:tool_version="2018.2" bd:top="Sine_Wave" bd:version="1.00.a">
+
+  <spirit:component xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>Sine_Wave</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:parameters>
+      <spirit:parameter>
+        <spirit:name>isTop</spirit:name>
+        <spirit:value spirit:format="bool" spirit:resolve="immediate">true</spirit:value>
+      </spirit:parameter>
+    </spirit:parameters>
+    <spirit:busInterfaces>
+      <spirit:busInterface>
+        <spirit:name>CE.ACLKEN_0</spirit:name>
+        <spirit:displayName>ClkEnable</spirit:displayName>
+        <spirit:description>Clock Enable</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clockenable" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clockenable_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CE</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>aclken_0</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>POLARITY</spirit:name>
+            <spirit:value>ACTIVE_LOW</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+      <spirit:busInterface>
+        <spirit:name>CLK.ACLK_0</spirit:name>
+        <spirit:displayName>Clk</spirit:displayName>
+        <spirit:description>Clock</spirit:description>
+        <spirit:busType spirit:library="signal" spirit:name="clock" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:abstractionType spirit:library="signal" spirit:name="clock_rtl" spirit:vendor="xilinx.com" spirit:version="1.0"/>
+        <spirit:slave/>
+        <spirit:portMaps>
+          <spirit:portMap>
+            <spirit:logicalPort>
+              <spirit:name>CLK</spirit:name>
+            </spirit:logicalPort>
+            <spirit:physicalPort>
+              <spirit:name>aclk_0</spirit:name>
+            </spirit:physicalPort>
+          </spirit:portMap>
+        </spirit:portMaps>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>FREQ_HZ</spirit:name>
+            <spirit:value>100000000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>PHASE</spirit:name>
+            <spirit:value>0.000</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>CLK_DOMAIN</spirit:name>
+            <spirit:value>Sine_Wave_aclk_0</spirit:value>
+            <spirit:vendorExtensions>
+              <bd:configElementInfos>
+                <bd:configElementInfo bd:valueSource="default"/>
+              </bd:configElementInfos>
+            </spirit:vendorExtensions>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:busInterface>
+    </spirit:busInterfaces>
+    <spirit:model>
+      <spirit:views>
+        <spirit:view>
+          <spirit:name>BlockDiagram</spirit:name>
+          <spirit:envIdentifier>:vivado.xilinx.com:</spirit:envIdentifier>
+          <spirit:hierarchyRef spirit:library="BlockDiagram" spirit:name="Sine_Wave_imp" spirit:vendor="xilinx.com" spirit:version="1.00.a"/>
+        </spirit:view>
+      </spirit:views>
+      <spirit:ports>
+        <spirit:port>
+          <spirit:name>aclken_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>aclk_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>in</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>m_axis_data_tdata_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+            <spirit:vector>
+              <spirit:left>15</spirit:left>
+              <spirit:right>0</spirit:right>
+            </spirit:vector>
+          </spirit:wire>
+        </spirit:port>
+        <spirit:port>
+          <spirit:name>m_axis_data_tvalid_0</spirit:name>
+          <spirit:wire>
+            <spirit:direction>out</spirit:direction>
+          </spirit:wire>
+        </spirit:port>
+      </spirit:ports>
+    </spirit:model>
+  </spirit:component>
+
+  <spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009">
+    <spirit:vendor>xilinx.com</spirit:vendor>
+    <spirit:library>BlockDiagram</spirit:library>
+    <spirit:name>Sine_Wave_imp</spirit:name>
+    <spirit:version>1.00.a</spirit:version>
+    <spirit:componentInstances>
+      <spirit:componentInstance>
+        <spirit:instanceName>dds_compiler_0</spirit:instanceName>
+        <spirit:componentRef spirit:library="ip" spirit:name="dds_compiler" spirit:vendor="xilinx.com" spirit:version="6.0"/>
+        <spirit:configurableElementValues>
+          <spirit:configurableElementValue spirit:referenceId="bd:xciName">Sine_Wave_dds_compiler_0_0</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Spurious_Free_Dynamic_Range">96</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Noise_Shaping">Auto</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Phase_Width">28</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Width">16</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Selection">Sine</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Has_Phase_Out">false</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="M_DATA_Has_TUSER">Not_Required</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Latency">8</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Has_ACLKEN">true</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="Output_Frequency1">0.002</spirit:configurableElementValue>
+          <spirit:configurableElementValue spirit:referenceId="PINC1">1010011111000</spirit:configurableElementValue>
+        </spirit:configurableElementValues>
+      </spirit:componentInstance>
+    </spirit:componentInstances>
+    <spirit:adHocConnections>
+      <spirit:adHocConnection>
+        <spirit:name>aclken_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="aclken_0"/>
+        <spirit:internalPortReference spirit:componentRef="dds_compiler_0" spirit:portRef="aclken"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>aclk_0_1</spirit:name>
+        <spirit:externalPortReference spirit:portRef="aclk_0"/>
+        <spirit:internalPortReference spirit:componentRef="dds_compiler_0" spirit:portRef="aclk"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dds_compiler_0_m_axis_data_tdata</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dds_compiler_0" spirit:portRef="m_axis_data_tdata"/>
+        <spirit:externalPortReference spirit:portRef="m_axis_data_tdata_0"/>
+      </spirit:adHocConnection>
+      <spirit:adHocConnection>
+        <spirit:name>dds_compiler_0_m_axis_data_tvalid</spirit:name>
+        <spirit:internalPortReference spirit:componentRef="dds_compiler_0" spirit:portRef="m_axis_data_tvalid"/>
+        <spirit:externalPortReference spirit:portRef="m_axis_data_tvalid_0"/>
+      </spirit:adHocConnection>
+    </spirit:adHocConnections>
+  </spirit:design>
+
+</bd:repository>

@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator K.31
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o "E:\FYP\FPGA_XILINX 2\tflipflop\jk_flipflop_withoutdflipflop\//Untitled" -u 0 "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop_withoutdflipflop/jk_ffwithoutd.bit" -x xcf04s 
+
+PROM E:\FYP\FPGA_XILINX 2\tflipflop\jk_flipflop_withoutdflipflop\//Untitled.prm map: Mon Jun 24 12:10:31 2019
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03a801d1
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Jun 24 12:07:19 2019 E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop_withoutdflipflop/jk_ffwithoutd.bit

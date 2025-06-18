@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1724616642">
+  <File Type="ROUTE-PWR" Name="Edge_Detect_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Edge_Detect.tcl"/>
+  <File Type="BITSTR-BMM" Name="Edge_Detect_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="Edge_Detect_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Edge_Detect_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Edge_Detect_opt.dcp"/>
+  <File Type="OPT-DRC" Name="Edge_Detect_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Edge_Detect.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Edge_Detect_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Edge_Detect_placed.dcp"/>
+  <File Type="PLACE-IO" Name="Edge_Detect_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Edge_Detect_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Edge_Detect_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Edge_Detect_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Edge_Detect_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Edge_Detect.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Edge_Detect_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Edge_Detect.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Edge_Detect_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Edge_Detect.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Edge_Detect_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Edge_Detect_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Edge_Detect_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="Edge_Detect_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Edge_Detect_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="Edge_Detect_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="Edge_Detect.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Edge_Detect_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="Edge_Detect.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Edge_Detect_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Edge_Detect_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="Edge_Detect.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="Edge_Detect_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Edge_Detect_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Edge_Detect_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Edge_Detect_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Edge_Detect_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Edge_Detect_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="Edge_Detect_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Edge_Detect_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Edge_Detect_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Edge_Detect_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Edge_Detect_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Edge_Detect_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Edge_Detect.bit"/>
+  <File Type="BITSTR-RBT" Name="Edge_Detect.rbt"/>
+  <File Type="BITSTR-NKY" Name="Edge_Detect.nky"/>
+  <File Type="BG-DRC" Name="Edge_Detect.drc"/>
+  <File Type="RDI-RDI" Name="Edge_Detect.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Edge_Detect.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Edge_Detect"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

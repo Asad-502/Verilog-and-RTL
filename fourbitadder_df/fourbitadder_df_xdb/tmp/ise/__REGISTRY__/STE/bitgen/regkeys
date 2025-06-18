@@ -1,0 +1,6 @@
+CommandLine
+D:\Xilinx\ISE\bin\nt\unwrapped\bitgen.exe -ise E:/FYP/FPGA_XILINX 2/fourbitadder_df/fourbitadder_df.ise -intstyle ise -f fourbitadder_df.ut fourbitadder_df.ncd
+s
+FormatString
+bitgen [-d] [-j] [-b] [-w] [-l] [-m] [-t] [-n] [-u] [-a] [--p] [-r <bitFile>] [-intstyle ise|xflow|silent] [-ise <projectrepositoryfile>] {-bd <BRAM_data_file> [tag <tagname>]} {-g <setting_value>} <infile[.ncd]> [<outfile>] [<pcffile[.pcf]>]
+s

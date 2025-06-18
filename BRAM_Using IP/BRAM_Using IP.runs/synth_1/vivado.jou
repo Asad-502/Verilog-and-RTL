@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 10 03:46:30 2023
+# Process ID: 18168
+# Current directory: E:/FYP/FPGA_XILINX 2/BRAM_Using IP/BRAM_Using IP.runs/synth_1
+# Command line: vivado.exe -log BRAM_Using_IP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BRAM_Using_IP.tcl
+# Log file: E:/FYP/FPGA_XILINX 2/BRAM_Using IP/BRAM_Using IP.runs/synth_1/BRAM_Using_IP.vds
+# Journal file: E:/FYP/FPGA_XILINX 2/BRAM_Using IP/BRAM_Using IP.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BRAM_Using_IP.tcl -notrace

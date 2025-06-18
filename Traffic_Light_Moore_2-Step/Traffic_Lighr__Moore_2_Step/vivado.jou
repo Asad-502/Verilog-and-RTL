@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug 19 23:51:57 2023
+# Process ID: 21188
+# Current directory: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24820 E:\FYP\FPGA_XILINX 2\Traffic_Light_Moore_2-Step\Traffic_Lighr__Moore_2_Step\Traffic_Lighr__Moore_2_Step.xpr
+# Log file: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step/vivado.log
+# Journal file: E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/FYP/FPGA_XILINX 2/Traffic_Light_Moore_2-Step/Traffic_Lighr__Moore_2_Step/Traffic_Lighr__Moore_2_Step.xpr}
+update_compile_order -fileset sources_1
+close_project
+create_project Mealy_Basic_Example {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example} -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new/Mealy_Basic_Example.v} w ]
+add_files {{E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sources_1/new/Mealy_Basic_Example.v}}
+update_compile_order -fileset sources_1
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new/Mealy_Basic_Example.v} w ]
+add_files -fileset sim_1 {{E:/FYP/FPGA_XILINX 2/Mealy_Basic_Example/Mealy_Basic_Example.srcs/sim_1/new/Mealy_Basic_Example.v}}
+update_compile_order -fileset sim_1
+close_project
+create_project Mealy_Example_3_Way_Process {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process} -part xc7a35tcpg236-1
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v} w ]
+add_files {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sources_1/new/Mealy_Example.v}}
+update_compile_order -fileset sources_1
+set_property simulator_language Verilog [current_project]
+update_ip_catalog
+update_ip_catalog
+launch_simulation
+source Mealy_Example.tcl
+close_sim
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new
+file mkdir {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new}
+close [ open {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v} w ]
+add_files -fileset sim_1 {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+set_property is_enabled false [get_files  {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}]
+launch_simulation
+source Mealy_Example.tcl
+add_force {/Mealy_Example/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Mealy_Example/rst} -radix hex {0 0ns}
+relaunch_sim
+add_force {/Mealy_Example/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/Mealy_Example/rst} -radix hex {0 0ns}
+add_force {/Mealy_Example/din} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps -cancel_after 10
+run 10 us
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {1 0ns} -cancel_after 100
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {0 100ns}
+run 10 us
+run 10 us
+add_force {/Mealy_Example/din} -radix hex {1 10ns}
+run 10 us
+close_sim
+set_property is_enabled true [get_files  {{E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.srcs/sim_1/new/Mealy_Example_3_Way_process_Tb.v}}]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+relaunch_sim
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+close_project
+open_project {E:/FYP/FPGA_XILINX 2/Mealy_Example_3_Way_Process/Mealy_Example_3_Way_Process.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim
+launch_simulation
+source Mealy_Example_3_Way_process_Tb.tcl
+close_sim

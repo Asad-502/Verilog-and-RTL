@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map K.31 on Sun Jun 23 20:26:28 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "s" LOCATE = SITE "J14" LEVEL 1;
+COMP "x" LOCATE = SITE "G18" LEVEL 1;
+COMP "y" LOCATE = SITE "H18" LEVEL 1;
+COMP "z" LOCATE = SITE "K18" LEVEL 1;
+COMP "c" LOCATE = SITE "J15" LEVEL 1;
+SCHEMATIC END;
+

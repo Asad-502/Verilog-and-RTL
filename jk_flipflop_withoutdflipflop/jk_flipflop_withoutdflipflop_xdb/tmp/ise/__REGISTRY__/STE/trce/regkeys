@@ -1,0 +1,6 @@
+CommandLine
+D:/Xilinx/ISE/bin/nt/unwrapped/trce.exe -ise E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop_withoutdflipflop/jk_flipflop_withoutdflipflop.ise -intstyle ise -e 3 -s 4 -xml jk_ffwithoutd jk_ffwithoutd.ncd -o jk_ffwithoutd.twr jk_ffwithoutd.pcf -ucf jk_ffwithoutd.ucf
+s
+FormatString
+trce.exe ([-e|-v [<limit:0,2000000000>]] [-l <limit:0,2000000000>] [-n [<limit:0,2000000000>]] [-u [<limit:0,2000000000>]] [-skew] [-a] [--p] [-s <speed>] [-o <report[.twr]>] [--m] [-stamp <stampfile>] [-tsi <tsifile[.tsi]>] [-xml <report[.twx]>] [-nodatasheet] [-timegroups] [-fastpaths] [-intstyle ise|xflow|silent] [-ise <projectfile>] [--ucf <constraint[.ucf]>] <design[.ncd]> [<constraint[.pcf]>]) | ([-run <macro[.xtm]> [<design[.ncd]> [<constraint[.pcf]>]]] [-intstyle ise|xflow|silent] [-ise <projectfile>])
+s

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# 
+# Start of session at: Thu Nov  9 18:07:34 2023
+# Process ID: 25428
+# Current directory: E:/FYP/Zybo/Zybo_Counter/Zybo_Counter/Zybo_Counter.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: E:/FYP/Zybo/Zybo_Counter/Zybo_Counter/Zybo_Counter.sdk/webtalk/webtalk.log
+# Journal file: E:/FYP/Zybo/Zybo_Counter/Zybo_Counter/Zybo_Counter.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

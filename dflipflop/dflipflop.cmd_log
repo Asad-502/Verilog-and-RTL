@@ -1,0 +1,17 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dflipflop.ngc" dflipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dflipflop_map.ncd dflipflop.ngd dflipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -w -intstyle ise -ol std -t 1 dflipflop_map.ncd dflipflop.ncd dflipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -e 3 -s 4 -xml dflipflop dflipflop.ncd -o dflipflop.twr dflipflop.pcf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -f dflipflop.ut dflipflop.ncd
+xst -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dflipflop.ngc" dflipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dflipflop_map.ncd dflipflop.ngd dflipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -w -intstyle ise -ol std -t 1 dflipflop_map.ncd dflipflop.ncd dflipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -e 3 -s 4 -xml dflipflop dflipflop.ncd -o dflipflop.twr dflipflop.pcf -ucf dflipflop.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -f dflipflop.ut dflipflop.ncd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dflipflop.ngc" dflipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dflipflop_map.ncd dflipflop.ngd dflipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -w -intstyle ise -ol std -t 1 dflipflop_map.ncd dflipflop.ncd dflipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -e 3 -s 4 -xml dflipflop dflipflop.ncd -o dflipflop.twr dflipflop.pcf -ucf dflipflop.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/dflipflop/dflipflop.ise" -intstyle ise -f dflipflop.ut dflipflop.ncd

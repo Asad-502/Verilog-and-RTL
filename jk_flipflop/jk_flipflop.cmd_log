@@ -1,0 +1,30 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o jk_flipflop_map.ncd jk_flipflop.ngd jk_flipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -w -intstyle ise -ol std -t 1 jk_flipflop_map.ncd jk_flipflop.ncd jk_flipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -e 3 -s 4 -xml jk_flipflop jk_flipflop.ncd -o jk_flipflop.twr jk_flipflop.pcf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -f jk_flipflop.ut jk_flipflop.ncd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o jk_flipflop_map.ncd jk_flipflop.ngd jk_flipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -w -intstyle ise -ol std -t 1 jk_flipflop_map.ncd jk_flipflop.ncd jk_flipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -e 3 -s 4 -xml jk_flipflop jk_flipflop.ncd -o jk_flipflop.twr jk_flipflop.pcf -ucf jk_flipflop.ucf
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o jk_flipflop_map.ncd jk_flipflop.ngd jk_flipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -w -intstyle ise -ol std -t 1 jk_flipflop_map.ncd jk_flipflop.ncd jk_flipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -e 3 -s 4 -xml jk_flipflop jk_flipflop.ncd -o jk_flipflop.twr jk_flipflop.pcf -ucf jk_flipflop.ucf
+xst -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.xst" -ofn "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o jk_flipflop_map.ncd jk_flipflop.ngd jk_flipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -w -intstyle ise -ol std -t 1 jk_flipflop_map.ncd jk_flipflop.ncd jk_flipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -e 3 -s 4 -xml jk_flipflop jk_flipflop.ncd -o jk_flipflop.twr jk_flipflop.pcf -ucf jk_flipflop.ucf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "jk_flipflop.ngc" jk_flipflop.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o jk_flipflop_map.ncd jk_flipflop.ngd jk_flipflop.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -w -intstyle ise -ol std -t 1 jk_flipflop_map.ncd jk_flipflop.ncd jk_flipflop.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -e 3 -s 4 -xml jk_flipflop jk_flipflop.ncd -o jk_flipflop.twr jk_flipflop.pcf -ucf jk_flipflop.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop/jk_flipflop.ise" -intstyle ise -f jk_flipflop.ut jk_flipflop.ncd

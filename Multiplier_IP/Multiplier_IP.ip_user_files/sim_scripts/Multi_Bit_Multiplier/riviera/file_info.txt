@@ -1,0 +1,2 @@
+Multi_Bit_Multiplier.v,verilog,xil_defaultlib,../../../bd/Multi_Bit_Multiplier/sim/Multi_Bit_Multiplier.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

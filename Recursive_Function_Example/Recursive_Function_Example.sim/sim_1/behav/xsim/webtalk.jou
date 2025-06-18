@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Aug 12 01:51:55 2023
+# Process ID: 12212
+# Current directory: E:/FYP/FPGA_XILINX 2/Recursive_Function_Example/Recursive_Function_Example.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/FYP/FPGA_XILINX 2/Recursive_Function_Example/Recursive_Function_Example.sim/sim_1/behav/xsim/xsim.dir/Recursive_Function_Example_Tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/FYP/FPGA_XILINX 2/Recursive_Function_Example/Recursive_Function_Example.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/FYP/FPGA_XILINX 2/Recursive_Function_Example/Recursive_Function_Example.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/FYP/FPGA_XILINX -notrace

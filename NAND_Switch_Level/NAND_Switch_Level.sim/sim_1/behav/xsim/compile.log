@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/NAND_Switch_Level/NAND_Switch_Level.srcs/sources_1/new/NAND_Switch_Level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_Switch_Level
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/NAND_Switch_Level/NAND_Switch_Level.srcs/sim_1/new/NAND_Switch_Level_Tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NAND_Switch_Level_Tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/FYP/FPGA_XILINX/NAND_Switch_Level/NAND_Switch_Level.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,1 @@
+-wto "9846972fa494486683784b5aef96fa03" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Inverter_Switch_Level_Tb_behav" "xil_defaultlib.Inverter_Switch_Level_Tb" "xil_defaultlib.glbl" -log "elaborate.log" 

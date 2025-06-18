@@ -1,0 +1,30 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.xst" -ofn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dlatch_map.ncd dlatch.ngd dlatch.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -w -intstyle ise -ol std -t 1 dlatch_map.ncd dlatch.ncd dlatch.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -e 3 -s 4 -xml dlatch dlatch.ncd -o dlatch.twr dlatch.pcf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dlatch_map.ncd dlatch.ngd dlatch.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -w -intstyle ise -ol std -t 1 dlatch_map.ncd dlatch.ncd dlatch.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -e 3 -s 4 -xml dlatch dlatch.ncd -o dlatch.twr dlatch.pcf -ucf dlatch.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -f dlatch.ut dlatch.ncd
+xst -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.xst" -ofn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dlatch_map.ncd dlatch.ngd dlatch.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -w -intstyle ise -ol std -t 1 dlatch_map.ncd dlatch.ncd dlatch.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -e 3 -s 4 -xml dlatch dlatch.ncd -o dlatch.twr dlatch.pcf -ucf dlatch.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -f dlatch.ut dlatch.ncd
+xst -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.xst" -ofn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+xst -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.xst" -ofn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dlatch_map.ncd dlatch.ngd dlatch.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -w -intstyle ise -ol std -t 1 dlatch_map.ncd dlatch.ncd dlatch.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -e 3 -s 4 -xml dlatch dlatch.ncd -o dlatch.twr dlatch.pcf -ucf dlatch.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -f dlatch.ut dlatch.ncd
+xst -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.xst" -ofn "E:/FYP/FPGA_XILINX 2/Dlatch/dlatch.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "dlatch.ngc" dlatch.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o dlatch_map.ncd dlatch.ngd dlatch.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -w -intstyle ise -ol std -t 1 dlatch_map.ncd dlatch.ncd dlatch.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -e 3 -s 4 -xml dlatch dlatch.ncd -o dlatch.twr dlatch.pcf -ucf dlatch.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/Dlatch/Dlatch.ise" -intstyle ise -f dlatch.ut dlatch.ncd

@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Tue Apr 11 17:08:20 UTC 2023
+VLNV: xilinx.com:ip:c_counter_binary:12.0
+SynthRuntime: 43

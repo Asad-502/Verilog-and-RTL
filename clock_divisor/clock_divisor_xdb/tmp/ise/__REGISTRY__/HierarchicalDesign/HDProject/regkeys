@@ -1,0 +1,24 @@
+CommandLine-Map
+
+s
+CommandLine-Ngdbuild
+D:\Xilinx\ISE\bin\nt\unwrapped\ngdbuild.exe -ise E:/FYP/FPGA_XILINX 2/clock_divisor/clock_divisor.ise -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 clock_divisor.ngc clock_divisor.ngd
+s
+CommandLine-Par
+
+s
+CommandLine-Xst
+
+s
+Previous-NGD
+clock_divisor_prev_built.ngd
+s
+Previous-NGM
+
+s
+Previous-Packed-NCD
+
+s
+Previous-Routed-NCD
+
+s

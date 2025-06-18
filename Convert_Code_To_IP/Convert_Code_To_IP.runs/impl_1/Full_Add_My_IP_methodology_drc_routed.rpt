@@ -1,0 +1,34 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Aug 20 11:13:59 2024
+| Host         : DESKTOP-S5BIVCG running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Full_Add_My_IP_methodology_drc_routed.rpt -pb Full_Add_My_IP_methodology_drc_routed.pb -rpx Full_Add_My_IP_methodology_drc_routed.rpx
+| Design       : Full_Add_My_IP
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_Full_Add_My_IP
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
+
+2. REPORT DETAILS
+-----------------
+

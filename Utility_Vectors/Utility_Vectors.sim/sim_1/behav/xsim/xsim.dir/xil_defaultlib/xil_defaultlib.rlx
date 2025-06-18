@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/hdl/Utility_Vectors_wrapper.v,1719993328,verilog,,,,Utility_Vectors_wrapper,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/ip/Utility_Vectors_util_reduced_logic_0_0/sim/Utility_Vectors_util_reduced_logic_0_0.v,1719993328,verilog,,E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/sim/Utility_Vectors.v,,Utility_Vectors_util_reduced_logic_0_0,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/ip/Utility_Vectors_util_vector_logic_0_0/sim/Utility_Vectors_util_vector_logic_0_0.v,1719993328,verilog,,E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/ip/Utility_Vectors_util_reduced_logic_0_0/sim/Utility_Vectors_util_reduced_logic_0_0.v,,Utility_Vectors_util_vector_logic_0_0,,,,,,,,
+E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/sim/Utility_Vectors.v,1719993844,verilog,,E:/FYP/FPGA_XILINX 2/Utility_Vectors/Utility_Vectors.srcs/sources_1/bd/Utility_Vectors/hdl/Utility_Vectors_wrapper.v,,Utility_Vectors,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Aug  4 00:11:02 2023
+# Process ID: 11912
+# Current directory: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.runs/synth_1
+# Command line: vivado.exe -log Basic_Memory_Design.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basic_Memory_Design.tcl
+# Log file: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.runs/synth_1/Basic_Memory_Design.vds
+# Journal file: C:/Users/Asad Ur Rehman/Desktop/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Basic_Memory_Design.tcl -notrace

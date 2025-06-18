@@ -1,0 +1,2 @@
+verilog work "../dflipflop_asynchronous/dflipflop_asynchronous.v"
+verilog work "tflipflop.v"

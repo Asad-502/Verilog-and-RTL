@@ -1,0 +1,8 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7a6bcaece753471b830284e312f449e2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Sequence_Detectors_Tb_behav xil_defaultlib.Sequence_Detectors_Tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port z [C:/Users/Asad_Ur_Rehman/Sequence_Detectors/Sequence_Detectors.srcs/sim_1/new/Sequence_Detectors_Tb.v:8]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

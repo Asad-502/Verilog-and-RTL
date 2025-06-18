@@ -1,0 +1,20 @@
+xst -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.syr"
+xst -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fulladder_map.ncd fulladder.ngd fulladder.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -w -intstyle ise -ol std -t 1 fulladder_map.ncd fulladder.ncd fulladder.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -e 3 -s 4 -xml fulladder fulladder.ncd -o fulladder.twr fulladder.pcf
+xst -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fulladder_map.ncd fulladder.ngd fulladder.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -w -intstyle ise -ol std -t 1 fulladder_map.ncd fulladder.ncd fulladder.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -e 3 -s 4 -xml fulladder fulladder.ncd -o fulladder.twr fulladder.pcf -ucf fulladder.ucf
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd
+map -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -p xc3s500e-fg320-4 -cm area -pr off -k 4 -c 100 -o fulladder_map.ncd fulladder.ngd fulladder.pcf
+par -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -w -intstyle ise -ol std -t 1 fulladder_map.ncd fulladder.ncd fulladder.pcf
+trce -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -e 3 -s 4 -xml fulladder fulladder.ncd -o fulladder.twr fulladder.pcf -ucf fulladder.ucf
+bitgen -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -f fulladder.ut fulladder.ncd
+xst -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -ifn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.xst" -ofn "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.syr"
+ngdbuild -ise "E:/FYP/FPGA_XILINX 2/fulladder/fulladder.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-fg320-4 "fulladder.ngc" fulladder.ngd

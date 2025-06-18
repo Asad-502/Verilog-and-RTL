@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Address :   59, Data:118
+Address :  241, Data:226
+Address :  129, Data:  2
+Address :   44, Data: 88
+Address :  141, Data: 26
+Address :  214, Data:172
+Address :  207, Data:158
+Address :   72, Data:144
+Address :   72, Data:144
+Address :   82, Data:164
+$finish called at time : 2078 ns : File "E:/FYP/FPGA_XILINX/Memory_Design/Basic_Memory_Design/Basic_Memory_Design.srcs/sim_1/new/Basic_Memory_Design_Tb.v" Line 31

@@ -1,0 +1,6 @@
+23:35:32 INFO  : Registering command handlers for SDK TCF services
+23:35:33 INFO  : Launching XSCT server: xsct.bat -interactive E:\Git_Hub\FPGA\Verilog\Write_Read_Data_SoC_Application\Bram_Read_Write\Bram_Read_Write.sdk\temp_xsdb_launch_script.tcl
+23:35:37 INFO  : XSCT server has started successfully.
+23:35:37 INFO  : Successfully done setting XSCT server connection channel  
+23:35:41 INFO  : Successfully done setting SDK workspace  
+23:35:41 INFO  : Processing command line option -hwspec E:/Git_Hub/FPGA/Verilog/Write_Read_Data_SoC_Application/Bram_Read_Write/Bram_Read_Write.sdk/Full_Design_wrapper.hdf.

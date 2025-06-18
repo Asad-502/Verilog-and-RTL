@@ -1,0 +1,357 @@
+Release 10.1 - xst K.31 (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop_withoutdflipflop/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to E:/FYP/FPGA_XILINX 2/tflipflop/jk_flipflop_withoutdflipflop/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: jk_ffwithoutd.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "jk_ffwithoutd.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "jk_ffwithoutd"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : jk_ffwithoutd
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : jk_ffwithoutd.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "jk_ffwithoutd.v" in library work
+Module <jk_ffwithoutd> compiled
+No errors in compilation
+Analysis of file <"jk_ffwithoutd.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <jk_ffwithoutd> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <jk_ffwithoutd>.
+Module <jk_ffwithoutd> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <jk_ffwithoutd>.
+    Related source file is "jk_ffwithoutd.v".
+    Found 1-bit register for signal <q>.
+    Found 1-bit 4-to-1 multiplexer for signal <q$mux0000> created at line 8.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <jk_ffwithoutd> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s500e.nph' in environment D:\Xilinx\ISE.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <jk_ffwithoutd> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block jk_ffwithoutd, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : jk_ffwithoutd.ngr
+Top Level Output File Name         : jk_ffwithoutd
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 2
+#      INV                         : 1
+#      LUT3                        : 1
+# FlipFlops/Latches                : 1
+#      FD                          : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 2
+#      OBUF                        : 2
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                        1  out of   4656     0%  
+ Number of Slice Flip Flops:              1  out of   9312     0%  
+ Number of 4 input LUTs:                  2  out of   9312     0%  
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    232     2%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 1     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.169ns (Maximum Frequency: 461.042MHz)
+   Minimum input arrival time before clock: 2.825ns
+   Maximum output required time after clock: 5.518ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 2.169ns (frequency: 461.042MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.169ns (Levels of Logic = 1)
+  Source:            q (FF)
+  Destination:       q (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: q to q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.566  q (q_OBUF)
+     LUT3:I2->O            1   0.704   0.000  Mmux_q_mux000011 (q_mux0000)
+     FD:D                      0.308          q
+    ----------------------------------------
+    Total                      2.169ns (1.603ns logic, 0.566ns route)
+                                       (73.9% logic, 26.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 2 / 1
+-------------------------------------------------------------------------
+Offset:              2.825ns (Levels of Logic = 2)
+  Source:            j (PAD)
+  Destination:       q (FF)
+  Destination Clock: clock rising
+
+  Data Path: j to q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.595  j_IBUF (j_IBUF)
+     LUT3:I0->O            1   0.704   0.000  Mmux_q_mux000011 (q_mux0000)
+     FD:D                      0.308          q
+    ----------------------------------------
+    Total                      2.825ns (2.230ns logic, 0.595ns route)
+                                       (78.9% logic, 21.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              5.518ns (Levels of Logic = 2)
+  Source:            q (FF)
+  Destination:       qnot (PAD)
+  Source Clock:      clock rising
+
+  Data Path: q to qnot
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.591   0.531  q (q_OBUF)
+     INV:I->O              1   0.704   0.420  qnot1_INV_0 (qnot_OBUF)
+     OBUF:I->O                 3.272          qnot_OBUF (qnot)
+    ----------------------------------------
+    Total                      5.518ns (4.567ns logic, 0.951ns route)
+                                       (82.8% logic, 17.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.66 secs
+ 
+--> 
+
+Total memory usage is 195592 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

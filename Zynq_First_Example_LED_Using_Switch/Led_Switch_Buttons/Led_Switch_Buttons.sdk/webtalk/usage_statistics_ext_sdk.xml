@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<webTalkData  fileName='usage_statistics_ext_sdk.xml'  majorVersion='1' minorVersion='0' timeStamp='Thu Nov  9 18:31:35 2023'>
+<section name="__ROOT__" level="0" order="1" description="">
+ <section name="software_version_and_target_device" level="1" order="1" description="">
+  <keyValuePair key="beta" value="false" description="" />
+  <keyValuePair key="build_version" value="2018.2" description="" />
+  <keyValuePair key="date_generated" value="2023-11-09 18:31:30" description="" />
+  <keyValuePair key="os_platform" value="amd64" description="" />
+  <keyValuePair key="product_version" value="SDK v2018.2" description="" />
+  <keyValuePair key="project_id" value="2018.2_4" description="" />
+  <keyValuePair key="project_iteration" value="4" description="" />
+  <keyValuePair key="random_id" value="a8ag6cf4m70ounku8knq09r9k8" description="" />
+  <keyValuePair key="registration_id" value="a8ag6cf4m70ounku8knq09r9k8" description="" />
+  <keyValuePair key="route_design" value="NA" description="" />
+  <keyValuePair key="target_device" value="NA" description="" />
+  <keyValuePair key="target_family" value="NA" description="" />
+  <keyValuePair key="target_package" value="NA" description="" />
+  <keyValuePair key="target_speed" value="NA" description="" />
+  <keyValuePair key="tool_flow" value="SDK" description="" />
+ </section>
+ <section name="user_environment" level="1" order="2" description="">
+  <keyValuePair key="cpu_name" value="11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz" description="" />
+  <keyValuePair key="cpu_speed" value="2419 MHz" description="" />
+  <keyValuePair key="os_name" value="Microsoft Windows 8 or later , 64-bit" description="" />
+  <keyValuePair key="os_release" value="major release  (build 9200)" description="" />
+  <keyValuePair key="system_ram" value="8.312 GB" description="" />
+  <keyValuePair key="total_processors" value="1" description="" />
+ </section>
+ <section name="sdk" level="1" order="3" description="">
+  <section name="application/1699536255530" level="2" order="1" description="">
+   <keyValuePair key="apptemplate" value="empty_application" description="" />
+   <keyValuePair key="bspid" value="1699536252902" description="" />
+   <keyValuePair key="hwid" value="1699536156274" description="" />
+   <keyValuePair key="langused" value="C" description="" />
+   <keyValuePair key="newbsp" value="true" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="procused" value="ps7_cortexa9" description="" />
+   <keyValuePair key="recordtype" value="APPCreation" description="" />
+   <keyValuePair key="uid" value="1699536255530" description="" />
+  </section>
+  <section name="application/1699536414716" level="2" order="2" description="">
+   <keyValuePair key="apptemplate" value="hello_world" description="" />
+   <keyValuePair key="bspid" value="1699536413286" description="" />
+   <keyValuePair key="hwid" value="1699536156274" description="" />
+   <keyValuePair key="langused" value="C" description="" />
+   <keyValuePair key="newbsp" value="true" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="procused" value="ps7_cortexa9" description="" />
+   <keyValuePair key="projsize" value="255.92578125" description="" />
+   <keyValuePair key="recordtype" value="APPCreation" description="" />
+   <keyValuePair key="uid" value="1699536414716" description="" />
+  </section>
+  <section name="bsp/1699536252902" level="2" order="3" description="">
+   <keyValuePair key="apptemplate" value="empty_application" description="" />
+   <keyValuePair key="hwid" value="1699536156274" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="recordtype" value="BSPCreation" description="" />
+   <keyValuePair key="uid" value="1699536252902" description="" />
+  </section>
+  <section name="bsp/1699536413286" level="2" order="4" description="">
+   <keyValuePair key="apptemplate" value="hello_world" description="" />
+   <keyValuePair key="hwid" value="1699536156274" description="" />
+   <keyValuePair key="os" value="standalone" description="" />
+   <keyValuePair key="recordtype" value="BSPCreation" description="" />
+   <keyValuePair key="uid" value="1699536413286" description="" />
+  </section>
+  <section name="bsp/1699536690981" level="2" order="5" description="">
+   <keyValuePair key="bootgencount" value="0" description="" />
+   <keyValuePair key="crosstriggcount" value="0" description="" />
+   <keyValuePair key="debugcount" value="1" description="" />
+   <keyValuePair key="flashcount" value="0" description="" />
+   <keyValuePair key="perfcount" value="0" description="" />
+   <keyValuePair key="qemudebugcount" value="0" description="" />
+   <keyValuePair key="recordtype" value="ToolUsage" description="" />
+   <keyValuePair key="uid" value="NA" description="" />
+  </section>
+  <section name="hardware/1699536156274" level="2" order="6" description="">
+   <keyValuePair key="apptemplate" value="NA" description="" />
+   <keyValuePair key="arch" value="zynq" description="" />
+   <keyValuePair key="device" value="7z010" description="" />
+   <keyValuePair key="ishandoff" value="true" description="" />
+   <keyValuePair key="iszynq" value="true" description="" />
+   <keyValuePair key="iszynqmp" value="false" description="" />
+   <keyValuePair key="os" value="NA" description="" />
+   <keyValuePair key="processors" value="2" description="" />
+   <keyValuePair key="recordtype" value="HWCreation" description="" />
+   <keyValuePair key="uid" value="1699536156274" description="" />
+   <keyValuePair key="vivadoversion" value="2018.2" description="" />
+  </section>
+ </section>
+ <section name="vivado_usage" level="1" order="4" description="">
+ </section>
+</section>
+</webTalkData>

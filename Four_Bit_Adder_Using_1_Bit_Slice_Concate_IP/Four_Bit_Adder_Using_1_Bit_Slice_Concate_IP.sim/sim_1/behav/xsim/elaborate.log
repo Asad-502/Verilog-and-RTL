@@ -1,0 +1,32 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 044f5aa7ec274fb891e55b46f9d884b0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_1 -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Four_Bit_Adder_wrapper_behav xil_defaultlib.Four_Bit_Adder_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.one_bit_full_adder
+Compiling module xil_defaultlib.Four_Bit_Adder_one_bit_full_adde...
+Compiling module xil_defaultlib.Four_Bit_Adder_one_bit_full_adde...
+Compiling module xil_defaultlib.Four_Bit_Adder_one_bit_full_adde...
+Compiling module xil_defaultlib.Four_Bit_Adder_one_bit_full_adde...
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(dout_wi...
+Compiling module xil_defaultlib.Four_Bit_Adder_xlconcat_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_0
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_1_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_1
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_2
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_3
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_4
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_5
+Compiling module xil_defaultlib.Four_Bit_Adder_xlslice_0_6
+Compiling module xil_defaultlib.Four_Bit_Adder
+Compiling module xil_defaultlib.Four_Bit_Adder_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Four_Bit_Adder_wrapper_behav
