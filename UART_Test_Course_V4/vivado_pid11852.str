@@ -1,0 +1,2709 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:05:29 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 11852
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jun 25 14:48:52 PKT 2025
+Time zone: 	Pakistan Standard Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 28
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	D:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+Java executable: 	D:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7/bin/java.exe
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Dsun.java2d.d3d=false, -Dsun.awt.nopixfmt=true, -Dsun.java2d.dpiaware=true, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	NESLS023
+User home directory: C:/Users/NESLS023
+User working directory: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2023.1
+RDI_DATADIR: D:/Xilinx/SharedData/2023.1/data;D:/Xilinx/Vivado/2023.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: C:/Users/NESLS023/AppData/Roaming/Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: C:/Users/NESLS023/AppData/Roaming/Xilinx/Vivado/2023.1/
+Vivado layouts directory: C:/Users/NESLS023/AppData/Roaming/Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	D:/Xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/vivado.log
+Vivado journal file: 	C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/vivado.jou
+Engine tmp dir: 	C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/.Xil/Vivado-11852-DESKTOP-SUFRKL5
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: D:/Xilinx/Vivado/2023.1
+RDI_ARGS:  -gui_launcher_event rodinguilauncherevent2640 "C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V4\Poject_1.xpr"
+RDI_ARGS_FUNCTION: RDI_EXEC_DEFAULT
+RDI_BASEROOT: D:/Xilinx/Vivado
+RDI_BINDIR: D:/Xilinx/Vivado/2023.1/bin
+RDI_BINROOT: D:/Xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_CHECK_PROG: True
+RDI_DATADIR: D:/Xilinx/SharedData/2023.1/data;D:/Xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: D:/Xilinx
+RDI_INSTALLVER: 2023.1
+RDI_INSTALLVERSION: 2023.1
+RDI_ISE_PLATFORM: nt64
+RDI_JAVACEFROOT: D:/Xilinx/Vivado/2023.1/tps/win64/java-cef-95.0.4638.69
+RDI_JAVAFXROOT: D:/Xilinx/Vivado/2023.1/tps/win64/javafx-sdk-17.0.1
+RDI_JAVAROOT: D:/Xilinx/Vivado/2023.1/tps/win64/jre17.0.3_7
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: D:/Xilinx/Vivado/2023.1/lib/win64.o
+RDI_MINGW_LIB: D:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\bin;D:/Xilinx/Vivado/2023.1\tps\mingw\6.2.0\win64.o\nt\libexec\gcc\x86_64-w64-mingw32\6.2.0
+RDI_OPT_EXT: .o
+RDI_PLATFORM: win64
+RDI_PREPEND_PATH: D:/Xilinx/Vitis/2023.1/bin;D:/Xilinx/Vivado/2023.1/ids_lite/ISE/bin/nt64;D:/Xilinx/Vivado/2023.1/ids_lite/ISE/lib/nt64
+RDI_PROG: D:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME: vivado.exe
+RDI_PYTHON3: D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHON3_VERSION: 3.8.3
+RDI_PYTHONHOME: D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3
+RDI_PYTHONPATH: D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3;D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\bin;D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib;D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib\site-packages
+RDI_PYTHON_LD_LIBPATH: D:/Xilinx/Vivado/2023.1\tps\win64\python-3.8.3\lib
+RDI_SESSION_INFO: C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V4:DESKTOP-SUFRKL5-25-06-2025_14-48-34.76
+RDI_SHARED_DATA: D:/Xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: D:/Xilinx/Vivado/2023.1/tps/win64
+RDI_USE_JDK17: True
+RDI_VERBOSE: False
+XILINX: D:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2023.1
+XILINX_SDK: D:/Xilinx/Vitis/2023.1
+XILINX_VITIS: D:/Xilinx/Vitis/2023.1
+XILINX_VIVADO: D:/Xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2023.1
+_RDI_BINROOT: D:\Xilinx\Vivado\2023.1\bin
+_RDI_CWD: C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V4
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 1,808 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 91 MB (+93291kb) [00:00:06]
+// [Engine Memory]: 1,616 MB (+1543260kb) [00:00:06]
+// Opening Vivado Project: C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V4\Poject_1.xpr. Version: Vivado v2023.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,869 MB. GUI used memory: 67 MB. Current time: 6/25/25, 2:48:53 PM PKT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 138 MB (+44267kb) [00:00:17]
+// [Engine Memory]: 2,078 MB (+399744kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  1264 ms.
+// Tcl Message: open_project C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'. 
+// [GUI Memory]: 146 MB (+753kb) [00:00:18]
+// [Engine Memory]: 2,191 MB (+8673kb) [00:00:18]
+// Project name: Poject_1; location: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4; part: xczu2cg-sfvc784-1-e
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2577.789 ; gain = 533.562 
+dismissDialog("Open Project"); // bq
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [GUI Memory]: 154 MB (+488kb) [00:00:25]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 22, true); // f - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl (Dont Echo) Command: 'rdi::info_commands get_hw_probes'
+// Tcl (Dont Echo) Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // t
+// Tcl Message: open_hw_manager 
+dismissDialog("Open Hardware Manager"); // bq
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // g
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ao
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2023.1   **** Build date : May  7 2023 at 15:26:57     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0 INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ******** Xilinx cs_server v2023.1.0   ****** Build date   : Apr 10 2023-20:59:24     **** Build number : 2023.1.1681142364       ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.       ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.    
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: current_hw_device [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0). 
+// Tcl Message: current_hw_device [get_hw_devices arm_dap_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0] 
+// Tcl Message: current_hw_device [get_hw_devices xczu2_0] 
+dismissDialog("Auto Connect"); // bq
+// HMemoryUtils.trashcanNow. Engine heap size: 2,227 MB. GUI used memory: 76 MB. Current time: 6/25/25, 2:49:18 PM PKT
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu2_0 (1) ; Not programmed", 2, "xczu2_0 (1)", 0, true); // m - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu2_0 (1) ; Not programmed", 2, "xczu2_0 (1)", 0, true, false, false, false, true, false); // m - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP
+// Tcl Message: set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xczu2_0] 
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// 'D' command handler elapsed time: 8 seconds
+dismissDialog("Program Device"); // bq
+// TclEventType: HW_SERVER_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,297 MB. GUI used memory: 94 MB. Current time: 6/25/25, 2:49:31 PM PKT
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// [Engine Memory]: 2,300 MB (+357kb) [00:00:50]
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:49:33 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:49:33 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,318 MB. GUI used memory: 94 MB. Current time: 6/25/25, 2:49:34 PM PKT
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_vios", 1); // o
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_vios", 1, true, false); // o - Popup Trigger
+selectMenuItem(RDIResource.BaseWorkspace_FLOAT, "Float"); // ao
+floatFrame(PAResourceOtoP.PAViews_DASHBOARD, "hw_vios"); // R
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 55 ;  ; Output ; hw_vio_1", 1, "[H] 55", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "26"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 55", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 26 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:50:04 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:50:04 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 19 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:50:24 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:50:24 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,328 MB. GUI used memory: 94 MB. Current time: 6/25/25, 2:50:25 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 21 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:50:45 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:50:45 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,331 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:50:47 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 48 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:51:34 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:51:34 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// [GUI Memory]: 165 MB (+3898kb) [00:02:55]
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTab((HResource) null, (HResource) null, "Serial I/O Scans", 3); // aa
+selectTab((HResource) null, (HResource) null, "Serial I/O Links", 2); // aa
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+selectTab((HResource) null, (HResource) null, "Serial I/O Scans", 3); // aa
+selectButton(PAResourceCommand.PACommandNames_READ_SIO_SCAN, "Serial I/O Scans_read_sio_scan"); // B
+// Run Command: PAResourceCommand.PACommandNames_READ_SIO_SCAN
+dismissFileChooser();
+// Elapsed time: 43 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:52:35 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,335 MB. GUI used memory: 96 MB. Current time: 6/25/25, 2:52:36 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:52:35 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 15 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+// [GUI Memory]: 173 MB (+92kb) [00:04:32]
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 116 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:54:47 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:54:47 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,345 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:54:49 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 27 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:55:15 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:55:15 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 122 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:57:18 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,348 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:57:19 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:57:18 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 11 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:57:29 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:57:29 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,351 MB. GUI used memory: 96 MB. Current time: 6/25/25, 2:57:30 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 27 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:57:57 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:57:57 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:58:03 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:58:03 
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,352 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:58:04 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 88 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:59:31 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:59:31 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,353 MB. GUI used memory: 96 MB. Current time: 6/25/25, 2:59:33 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:59:35 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:59:35 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 26 ;  ; Output ; hw_vio_1", 1, "[H] 26", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "52"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 26", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 52 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:59:48 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:59:48 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,353 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:59:48 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 14:59:53 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 14:59:53 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,355 MB. GUI used memory: 95 MB. Current time: 6/25/25, 2:59:54 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 68 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:08 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:08 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 10 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:19 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:19 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,355 MB. GUI used memory: 95 MB. Current time: 6/25/25, 3:01:19 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:27 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:27 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,356 MB. GUI used memory: 95 MB. Current time: 6/25/25, 3:01:29 PM PKT
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/UART_Tx_Rx_0_rxout_1[7:0]]", 0, true); // k - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/vio_0_probe_out0_1[7:0]]", 1, true); // k - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/UART_Tx_Rx_0_rxout_1[7:0]]", 0, true); // k - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 2,356 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:01:37 PM PKT
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/vio_0_probe_out0_1[7:0]]", 1, true); // k - Node
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:39 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:39 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,356 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:01:40 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_TOGGLE_AUTO_RE_TRIGGER_MODE, "ILA_auto_retrigger"); // v: TRUE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:46 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:46 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:50 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,358 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:01:51 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:50 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:53 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:53 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,358 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:01:55 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:01:57 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:01:57 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:00 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,358 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:02:01 PM PKT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:00 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:03 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:03 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,358 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:02:05 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:07 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:07 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:10 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,359 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:02:11 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:10 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:13 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Elapsed time: 27 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:13 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,359 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:02:15 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:02:16 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:02:16 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 122 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:04:16 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 52 ;  ; Output ; hw_vio_1", 1, "[H] 52", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "25"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 52", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 25 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Elapsed time: 10 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2025-Jun-25 15:04:49 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:04:51 
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 25 ;  ; Output ; hw_vio_1", 1, "[H] 25", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "32"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 25", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 32 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_TOGGLE_AUTO_RE_TRIGGER_MODE, "ILA_auto_retrigger"); // v: FALSE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2025-Jun-25 15:05:07 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:05:07 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,360 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:05:08 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:05:07 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 668, 118); // b
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+// Elapsed time: 85 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:06:39 
+// Elapsed time: 510 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2025-Jun-25 15:15:13 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:15:13 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,361 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:15:14 PM PKT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:15:13 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 15 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 499, 119); // b
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_SELECTED_WAVE_OBJECT_NAMES
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MOVE_CURSOR
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "SysMon ; ", 7, "SysMon", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "SysMon ; ", 7, "SysMon", 0, false, false, false, false, false, true); // m - Double Click
+// Run Command: PAResourceCommand.PACommandNames_NEW_HARDWARE_DASHBOARD
+dismissDialog("New Dashboard"); // a
+// Elapsed time: 13 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:15:50 
+// Elapsed time: 14 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// Elapsed time: 10 seconds
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/UART_Tx_Rx_0_rxdone ; ==   ; [B]   ; 1 ; probe2[0] ; 1 of 1", 0, "1", 3); // g.c
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "1", 0, "Value", 3); // g.c
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/UART_Tx_Rx_0_rxdone -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/UART_Tx_Rx_0_rxdone ; ==   ; [B]   ; X ; probe2[0] ; ", 0, "design_1_i/UART_Tx_Rx_0_rxdone", 0, false, false, false, true, false); // g.c - Popup Trigger
+selectMenu(PAResourceItoN.LabtoolsMenu_NAME, "Name"); // al
+selectMenuItem(PAResourceItoN.IlaProbeTablePanel_REMOVE_SELECTED_PROBES, "Remove"); // ao
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, null, -1, null, -1, false, false, false, true, false); // g.c - Popup Trigger
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "ILA_trigger_immediate"); // B
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2025-Jun-25 15:16:28 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:16:28 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:16:28 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,362 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:16:28 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_TOGGLE_AUTO_RE_TRIGGER_MODE, "ILA_auto_retrigger"); // v: TRUE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:16:40 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:16:40 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,364 MB. GUI used memory: 158 MB. Current time: 6/25/25, 3:16:42 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 19 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:00 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:00 
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:03 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,364 MB. GUI used memory: 96 MB. Current time: 6/25/25, 3:17:03 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:03 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:06 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:06 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,365 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:17:07 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:09 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:09 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// 'aj' command handler elapsed time: 5 seconds
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 20 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:35 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,365 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:17:35 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:35 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:38 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:38 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,365 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:17:39 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:17:41 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:17:41 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 94 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:19:16 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,365 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:19:16 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:19:16 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 56 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:20:12 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:20:12 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,366 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:20:14 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:20:15 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:20:15 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:20:19 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,366 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:20:19 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:20:19 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:20:22 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:20:22 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,366 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:20:23 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:20:25 
+// Elapsed time: 13 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// Tcl Message: wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:20:25 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 20 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_vio_1 ; OK", 5, "hw_vio_1", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "arm_dap_1 (1) ; N/A", 6, "arm_dap_1 (1)", 0, true); // m - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_vio_1 ; OK", 5, "hw_vio_1", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_ila_1 ; Idle", 4, "hw_ila_1", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_vio_1 ; OK", 5, "hw_vio_1", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_ila_1 ; Idle", 4, "hw_ila_1", 0, false); // m
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "hw_ila_1 ; Idle", 4, "hw_ila_1", 0, false, false, false, false, true, false); // m - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_TRIGGER, "Run Trigger"); // ao
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:21:03 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,366 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:21:03 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:21:03 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 34 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:21:42 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:21:42 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,366 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:21:43 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 538 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:41 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:41 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:44 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,367 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:30:45 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:44 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:47 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:48 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,367 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:30:49 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 32 ;  ; Output ; hw_vio_1", 1, "[H] 32", 1, true); // g - Node
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:51 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "96"); // bf
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:51 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton("OptionPane.button", "OK"); // JButton
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 32", 1, "Value", 1); // g
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:54 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,368 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:30:55 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:54 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_TOGGLE_AUTO_RE_TRIGGER_MODE, "ILA_auto_retrigger"); // v: FALSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:30:58 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:30:58 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:30:59 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 32 ;  ; Output ; hw_vio_1", 1, "[H] 32", 1, true); // g - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "96"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 32", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 96 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:31:03 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:31:03 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 25 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:31:29 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,369 MB. GUI used memory: 97 MB. Current time: 6/25/25, 3:31:29 PM PKT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:31:29 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 96 ;  ; Output ; hw_vio_1", 1, "[H] 96", 1, true); // g - Node
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 96", 1, "Value", 1); // g
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:31:45 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:31:45 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,370 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:31:46 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 21 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:32:06 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:32:06 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Elapsed time: 19 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:32:25 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,370 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:32:26 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:32:25 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_STOP_TRIGGER_FOR_THIS_ILA_CORE, "ILA_stop_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_STOP_TRIGGER
+// HOptionPane Warning: 'There are no armed ILAs. (Stop Trigger)'
+selectButton("OptionPane.button", "OK"); // JButton
+// Elapsed time: 56 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:33:27 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:33:27 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,371 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:33:28 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xczu2_0 (3) ; Programmed", 2, "xczu2_0 (3)", 0, true, false, false, false, true, false); // m - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ao
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aP
+// Tcl Message: set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,371 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:33:35 PM PKT
+// Tcl Message: program_hw_devices [get_hw_devices xczu2_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_VIO_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,371 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:33:40 PM PKT
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xczu2_0] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s). INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s). 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_VIO_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,371 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:33:40 PM PKT
+// TclEventType: HW_ILA_CHANGE
+// 'D' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bq
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:33:50 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:33:50 
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,372 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:33:52 PM PKT
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:33:59 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:33:59 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,372 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:34:01 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 96 ;  ; Output ; hw_vio_1", 1, "[H] 96", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "23"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 96", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 23 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:34:10 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:34:10 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 108 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:35:59 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:35:59 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,373 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:36:00 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 18 seconds
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 23 ;  ; Output ; hw_vio_1", 1, "[H] 23", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "25"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 23", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 25 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:36:22 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:36:22 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,373 MB. GUI used memory: 99 MB. Current time: 6/25/25, 3:36:23 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 59 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:37:21 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:37:21 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+selectTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "design_1_i/vio_0_probe_out0[7:0] ; [H] 25 ;  ; Output ; hw_vio_1", 1, "[H] 25", 1, true); // g - Node
+setText(PAResourceTtoZ.VioOutputValuePanel_VALUE_TEXT_FIELD, "36"); // bf
+editTreeTable(PAResourceTtoZ.VioProbesTreeTablePanel_VIO_PROBES_TREE_TABLE, "[H] 25", 1, "Value", 1); // g
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property OUTPUT_VALUE 36 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+// TclEventType: HW_VIO_CHANGE
+// Tcl Message: commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]] 
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:37:37 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 2,373 MB. GUI used memory: 98 MB. Current time: 6/25/25, 3:37:37 PM PKT
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:37:37 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE
+// Elapsed time: 36 seconds
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-25 15:38:14 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-25 15:38:14 
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 2,373 MB. GUI used memory: 99 MB. Current time: 6/25/25, 3:38:15 PM PKT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_WAVE_ZIP_EXPORT_DONE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: HW_VIO_PROBE_VALUE_CHANGE

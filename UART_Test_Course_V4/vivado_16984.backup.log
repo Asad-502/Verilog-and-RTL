@@ -1,0 +1,848 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jun 26 15:51:42 2025
+# Process ID: 16984
+# Current directory: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12032 C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.xpr
+# Log file: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/vivado.log
+# Journal file: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7\vivado.jou
+# Running On: DESKTOP-SUFRKL5, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 20, Host memory: 16851 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2023.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 2581.871 ; gain = 539.590
+update_compile_order -fileset sources_1
+update_module_reference design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Reading block design file <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:module_ref:Diff_Clk:1.0 - Diff_Clk_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- xilinx.com:ip:vio:3.0 - vio_0
+Adding component instance block -- xilinx.com:module_ref:UART_Tx_Rx:1.0 - UART_Tx_Rx_0
+Successfully read diagram <design_1> from block design file <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd>
+Upgrading 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UART_Tx_Rx_0_0 to use current project options
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/design_1_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Tx_Rx_0 .
+Exporting to file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 7a282253a9c7068a to dir: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/ip/2023.1/7/a/7a282253a9c7068a/design_1_UART_Tx_Rx_0_0.dcp to c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/ip/2023.1/7/a/7a282253a9c7068a/design_1_UART_Tx_Rx_0_0_sim_netlist.v to c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/ip/2023.1/7/a/7a282253a9c7068a/design_1_UART_Tx_Rx_0_0_sim_netlist.vhdl to c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/ip/2023.1/7/a/7a282253a9c7068a/design_1_UART_Tx_Rx_0_0_stub.v to c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/ip/2023.1/7/a/7a282253a9c7068a/design_1_UART_Tx_Rx_0_0_stub.vhdl to c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/ip/design_1_UART_Tx_Rx_0_0/design_1_UART_Tx_Rx_0_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_UART_Tx_Rx_0_0, cache-ID = 7a282253a9c7068a; cache size = 23.933 MB.
+[Thu Jun 26 15:53:07 2025] Launched synth_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/runme.log
+[Thu Jun 26 15:53:07 2025] Launched impl_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-20:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+current_hw_device [get_hw_devices xczu2_0]
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu2_0]
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 15:58:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 15:59:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 15:59:10
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 15:59:13
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 15:59:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 15:59:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 68 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 67 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 68 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+save_wave_config {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+update_module_reference design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UART_Tx_Rx_0_0 to use current project options
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+regenerate_bd_layout -routing
+regenerate_bd_layout
+validate_bd_design
+generate_target all [get_files  C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd]
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Tx_Rx_0 .
+Exporting to file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+catch { config_ip_cache -export [get_ips -all design_1_UART_Tx_Rx_0_0] }
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+export_ip_user_files -of_objects [get_files C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd]
+launch_runs design_1_UART_Tx_Rx_0_0_synth_1 -jobs 28
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+[Thu Jun 26 16:03:05 2025] Launched design_1_UART_Tx_Rx_0_0_synth_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/design_1_UART_Tx_Rx_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd] -directory C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.ip_user_files -ipstatic_source_dir C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/compile_simlib/modelsim} {questa=C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/compile_simlib/questa} {riviera=C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/compile_simlib/riviera} {activehdl=C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+[Thu Jun 26 16:03:24 2025] Launched design_1_UART_Tx_Rx_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_UART_Tx_Rx_0_0_synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/design_1_UART_Tx_Rx_0_0_synth_1/runme.log
+synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/runme.log
+[Thu Jun 26 16:03:24 2025] Launched impl_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2023.1
+  **** Build date : May  7 2023 at 15:26:57
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2023.1.0
+  ****** Build date   : Apr 10 2023-20:59:24
+    **** Build number : 2023.1.1681142364
+      ** Copyright 2017-2022 Xilinx, Inc. All Rights Reserved.
+      ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+current_hw_device [get_hw_devices xczu2_0]
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu2_0]
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 55 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:09:40
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:09:44
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:09:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:09:57
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 92 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 66 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:11:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:11:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 90 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:12:21
+set_property OUTPUT_VALUE 45 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:19:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:19:20
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:19:27
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:19:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:19:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:20:52
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:20:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 46 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:21:27
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:21:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_module_reference design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UART_Tx_Rx_0_0 to use current project options
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Tx_Rx_0 .
+Exporting to file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+[Thu Jun 26 16:24:42 2025] Launched design_1_UART_Tx_Rx_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_UART_Tx_Rx_0_0_synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/design_1_UART_Tx_Rx_0_0_synth_1/runme.log
+synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/runme.log
+[Thu Jun 26 16:24:42 2025] Launched impl_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+set_property OUTPUT_VALUE 75 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 55 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:29:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:29:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:30:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:30:10
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:18
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:30:20
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:29
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes design_1_i/rx_0_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1965] The ILA core 'hw_ila_1' trigger was stopped by user at 2025-Jun-26 16:30:46
+WARNING: [Labtools 27-157] hw_ila [hw_ila_1] stopped. No data to upload.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}] -trigger_now
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:46
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:30:46
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:30:56
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:30:56
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:31:03
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:31:03
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:31:11
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:31:11
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 10 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 11 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+update_module_reference design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UART_Tx_Rx_0_0 to use current project options
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp with file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/design_1_wrapper.dcp
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 28
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block UART_Tx_Rx_0 .
+Exporting to file c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File c:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_UART_Tx_Rx_0_0
+[Thu Jun 26 16:37:20 2025] Launched design_1_UART_Tx_Rx_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_UART_Tx_Rx_0_0_synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/design_1_UART_Tx_Rx_0_0_synth_1/runme.log
+synth_1: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/synth_1/runme.log
+[Thu Jun 26 16:37:20 2025] Launched impl_1...
+Run output will be captured here: C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 4143.781 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:16
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:16
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:50
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:50
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:41:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:41:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:01
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:01
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:14
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:26
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:26
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:45
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:45
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:42:53
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:42:53
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+set_property OUTPUT_VALUE 11 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:24
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:24
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:33
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:33
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:41
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:43:55
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:43:55
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:44:34
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:44:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:44:39
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:44:39
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:44:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:44:41
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:44:47
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:44:47
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:45:08
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:45:08
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+INFO: [Labtools 27-1435] Device xczu2 (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device dummy_dap_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property FULL_PROBES.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xczu2_0]
+set_property PROGRAM.FILE {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xczu2_0]
+program_hw_devices [get_hw_devices xczu2_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xczu2_0] 0]
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu2 (JTAG device index = 0) is programmed with a design that has 1 VIO core(s).
+WARNING: [Labtools 27-1952] VIO hw_probe OUTPUT_VALUE properties for hw_vio(s) [hw_vio_1] differ from output values in the VIO core(s).
+Resolution: 
+To synchronize the hw_probes properties and the VIO core outputs choose one of the following alternatives:
+  1) Execute the command 'Commit Output Values to VIO Core', to write down the hw_probe values to the core.
+  2) Execute the command 'Refresh Input and Output Values from VIO Core', to update the hw_probe properties with the core values.
+  3) First restore initial values in the core with the command 'Reset VIO Core Outputs', and then execute the command 'Refresh Input and Output Values from VIO Core'.
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+set_property OUTPUT_VALUE 65 [get_hw_probes design_1_i/vio_0_probe_out0 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out0} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 1 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+set_property OUTPUT_VALUE 0 [get_hw_probes design_1_i/vio_0_probe_out1 -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+commit_hw_vio [get_hw_probes {design_1_i/vio_0_probe_out1} -of_objects [get_hw_vios -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/vio_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:50:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:50:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:50:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:50:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:50:37
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:50:37
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:51:23
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:51:23
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:02
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:05
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:05
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:09
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:09
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:12
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:12
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:15
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:15
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:19
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:19
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:22
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:22
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:28
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:28
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:32
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:32
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:35
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:35
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Jun-26 16:56:38
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xczu2_0] -filter {CELL_NAME=~"design_1_i/ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Jun-26 16:56:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+update_module_reference design_1_UART_Tx_Rx_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "(spirit:decode(id('MODELPARAM_VALUE.clk_value')) / spirit:decode(id('MODELPARAM_VALUE.baud')))" into user parameter "wait_count".
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Upgrading 'C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_UART_Tx_Rx_0_0 to use current project options
+Wrote  : <C:\Users\NESLS023\Desktop\UART\UART_Test_Course_V7\Poject_1.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+save_wave_config {C:/Users/NESLS023/Desktop/UART/UART_Test_Course_V7/Poject_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 26 17:02:15 2025...

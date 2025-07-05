@@ -1,0 +1,28 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-266,-62",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_c_p_0 -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_c_n_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port port-id_start_0 -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -x 670 -y 260 -defaultsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -x 160 -y 270 -defaultsOSRD
+preplace inst UART_Tx_Rx_0 -pg 1 -lvl 2 -x 430 -y 90 -defaultsOSRD
+preplace inst Diff_Clk_0 -pg 1 -lvl 1 -x 160 -y 70 -defaultsOSRD
+preplace netloc c_p_0_1 1 0 1 N 60
+preplace netloc c_n_0_1 1 0 1 20 80n
+preplace netloc Diff_Clk_0_clk_out 1 0 3 20 190 290 190 570
+preplace netloc vio_0_probe_out0 1 1 2 300 240 N
+preplace netloc UART_Tx_Rx_0_rxout 1 0 3 30 200 NJ 200 550
+preplace netloc UART_Tx_Rx_0_tx 1 1 2 320 180 580
+preplace netloc start_0_1 1 0 3 NJ 140 310J 320 N
+preplace netloc UART_Tx_Rx_0_txdone 1 2 1 540 120n
+preplace netloc UART_Tx_Rx_0_rxdone 1 2 1 560 100n
+levelinfo -pg 1 0 160 430 670 760
+pagesize -pg 1 -db -bbox -sgen -100 0 760 380
+"
+}
+

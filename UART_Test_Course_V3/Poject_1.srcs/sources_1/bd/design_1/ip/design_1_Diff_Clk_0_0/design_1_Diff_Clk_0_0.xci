@@ -1,0 +1,45 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "design_1_Diff_Clk_0_0",
+    "cell_name": "Diff_Clk_0",
+    "component_reference": "xilinx.com:module_ref:Diff_Clk:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../Poject_1.gen/sources_1/bd/design_1/ip/design_1_Diff_Clk_0_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "design_1_Diff_Clk_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynquplus" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xczu2cg" } ],
+        "PACKAGE": [ { "value": "sfvc784" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../Poject_1.gen/sources_1/bd/design_1/ip/design_1_Diff_Clk_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.1" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "c_p": [ { "direction": "in" } ],
+        "c_n": [ { "direction": "in" } ],
+        "clk_out": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

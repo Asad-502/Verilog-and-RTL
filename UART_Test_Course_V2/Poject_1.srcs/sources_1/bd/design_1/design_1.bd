@@ -1,0 +1,206 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xD5D86E9FD5D86E9F",
+      "device": "xczu2cg-sfvc784-1-e",
+      "gen_directory": "../../../../Poject_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "UART_Tx_Rx_0": "",
+      "Diff_Clk_0": "",
+      "ila_0": "",
+      "vio_0": ""
+    },
+    "ports": {
+      "c_p_0": {
+        "direction": "I"
+      },
+      "c_n_0": {
+        "direction": "I"
+      },
+      "start_0": {
+        "direction": "I"
+      },
+      "tx_0": {
+        "direction": "O"
+      },
+      "rx_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "UART_Tx_Rx_0": {
+        "vlnv": "xilinx.com:module_ref:UART_Tx_Rx:1.0",
+        "xci_name": "design_1_UART_Tx_Rx_0_0",
+        "xci_path": "ip\\design_1_UART_Tx_Rx_0_0\\design_1_UART_Tx_Rx_0_0.xci",
+        "inst_hier_path": "UART_Tx_Rx_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "UART_Tx_Rx",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "start": {
+            "direction": "I"
+          },
+          "txin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "tx": {
+            "direction": "O"
+          },
+          "rx": {
+            "direction": "I"
+          },
+          "rxout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "rxdone": {
+            "direction": "O"
+          },
+          "txdone": {
+            "direction": "O"
+          }
+        }
+      },
+      "Diff_Clk_0": {
+        "vlnv": "xilinx.com:module_ref:Diff_Clk:1.0",
+        "xci_name": "design_1_Diff_Clk_0_0",
+        "xci_path": "ip\\design_1_Diff_Clk_0_0\\design_1_Diff_Clk_0_0.xci",
+        "inst_hier_path": "Diff_Clk_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "Diff_Clk",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "c_p": {
+            "direction": "I"
+          },
+          "c_n": {
+            "direction": "I"
+          },
+          "clk_out": {
+            "direction": "O"
+          }
+        }
+      },
+      "ila_0": {
+        "vlnv": "xilinx.com:ip:ila:6.2",
+        "xci_name": "design_1_ila_0_1",
+        "xci_path": "ip\\design_1_ila_0_1\\design_1_ila_0_1.xci",
+        "inst_hier_path": "ila_0",
+        "parameters": {
+          "C_DATA_DEPTH": {
+            "value": "65536"
+          },
+          "C_MONITOR_TYPE": {
+            "value": "Native"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "7"
+          },
+          "C_PROBE0_WIDTH": {
+            "value": "8"
+          },
+          "C_PROBE1_WIDTH": {
+            "value": "8"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "design_1_vio_0_1",
+        "xci_path": "ip\\design_1_vio_0_1\\design_1_vio_0_1.xci",
+        "inst_hier_path": "vio_0",
+        "parameters": {
+          "C_PROBE_OUT0_WIDTH": {
+            "value": "8"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Diff_Clk_0_clk_out": {
+        "ports": [
+          "Diff_Clk_0/clk_out",
+          "UART_Tx_Rx_0/clk",
+          "vio_0/clk",
+          "ila_0/clk"
+        ]
+      },
+      "UART_Tx_Rx_0_rxdone": {
+        "ports": [
+          "UART_Tx_Rx_0/rxdone",
+          "ila_0/probe2"
+        ]
+      },
+      "UART_Tx_Rx_0_rxout": {
+        "ports": [
+          "UART_Tx_Rx_0/rxout",
+          "vio_0/probe_in0",
+          "ila_0/probe1"
+        ]
+      },
+      "UART_Tx_Rx_0_tx": {
+        "ports": [
+          "UART_Tx_Rx_0/tx",
+          "tx_0",
+          "ila_0/probe4"
+        ]
+      },
+      "UART_Tx_Rx_0_txdone": {
+        "ports": [
+          "UART_Tx_Rx_0/txdone",
+          "ila_0/probe3"
+        ]
+      },
+      "c_n_0_1": {
+        "ports": [
+          "c_n_0",
+          "Diff_Clk_0/c_n"
+        ]
+      },
+      "c_p_0_1": {
+        "ports": [
+          "c_p_0",
+          "Diff_Clk_0/c_p"
+        ]
+      },
+      "rx_0_1": {
+        "ports": [
+          "rx_0",
+          "UART_Tx_Rx_0/rx",
+          "ila_0/probe5"
+        ]
+      },
+      "start_0_1": {
+        "ports": [
+          "start_0",
+          "UART_Tx_Rx_0/start",
+          "ila_0/probe6"
+        ]
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "UART_Tx_Rx_0/txin",
+          "ila_0/probe0"
+        ]
+      }
+    }
+  }
+}
